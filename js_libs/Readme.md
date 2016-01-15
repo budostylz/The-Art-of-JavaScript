@@ -26,6 +26,10 @@ http://headjs.com/site/api/v1.00.html
 
 http://requirejs.org/
 
+##Vanilla js
+
+http://vanilla-js.com/
+
 ##Video.js: The Player Framework
 
 http://videojs.com/
