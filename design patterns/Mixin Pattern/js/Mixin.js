@@ -1,7 +1,9 @@
 ﻿/*
     
     Mixin Pattern: 
-       In object-oriented programming languages, a mixin is a class that contains methods for use by other classes without having to be the parent class of those other classes.(WikiPedia)
+       In object-oriented programming languages, a mixin is a class that contains 
+       methods for use by other classes without having to be the 
+       parent class of those other classes.(WikiPedia)
 
     When to Use This Pattern:
       Mixins assist in decreasing functional repetition and increasing function re-use in a system. 
