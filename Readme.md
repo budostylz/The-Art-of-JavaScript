@@ -1,8 +1,4 @@
-﻿##JavaScript Design Patterns
-
-http://addyosmani.com/resources/essentialjsdesignpatterns/book/
-
-##Code Examples From 'Modern JavaScript Develop and Design'
+﻿##Code Examples From 'Modern JavaScript Develop and Design'
 
 By: Larry Ullman
 
