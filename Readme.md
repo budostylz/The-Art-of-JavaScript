@@ -1,6 +1,6 @@
 ﻿##Code Examples From 'Modern JavaScript Develop and Design'
 
-By: Larry Ullman
+http://www.larryullman.com/books/modern-javascript-develop-and-design/
 
 ##JSONLint
 
