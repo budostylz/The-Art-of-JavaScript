@@ -22,4 +22,8 @@ http://www.json.org/
 
 https://msdn.microsoft.com/en-us/library/aa902517.aspx
 
+##ECMAScript Compatibility Table
+
+http://kangax.github.io/compat-table/es5/
+
 
