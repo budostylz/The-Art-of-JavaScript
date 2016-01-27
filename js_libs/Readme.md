@@ -30,6 +30,10 @@ http://requirejs.org/
 
 http://vanilla-js.com/
 
+##Analytics for Web (analytics.js) 
+
+https://developers.google.com/analytics/devguides/collection/analyticsjs/?hl=en
+
 ##Video.js: The Player Framework
 
 http://videojs.com/
