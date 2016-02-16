@@ -26,4 +26,7 @@ https://msdn.microsoft.com/en-us/library/aa902517.aspx
 
 http://kangax.github.io/compat-table/es5/
 
+##JavaScript and HTML DOM Reference
+
+http://www.w3schools.com/jsref/default.asp
 
