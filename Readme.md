@@ -30,3 +30,7 @@ http://kangax.github.io/compat-table/es5/
 
 http://www.w3schools.com/jsref/default.asp
 
+##JavaScript Style Guides And Beautifiers
+
+https://addyosmani.com/blog/javascript-style-guides-and-beautifiers/
+
