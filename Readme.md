@@ -34,3 +34,6 @@ http://www.w3schools.com/jsref/default.asp
 
 https://addyosmani.com/blog/javascript-style-guides-and-beautifiers/
 
+##JavaScript Style Guide and Coding Conventions
+
+http://www.w3schools.com/js/js_conventions.asp
