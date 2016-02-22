@@ -37,3 +37,9 @@ https://addyosmani.com/blog/javascript-style-guides-and-beautifiers/
 ##JavaScript Style Guide and Coding Conventions
 
 http://www.w3schools.com/js/js_conventions.asp
+
+##Truth, Equality and JavaScript
+
+https://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/
+
+
