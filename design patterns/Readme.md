@@ -8,5 +8,9 @@ http://addyosmani.com/resources/essentialjsdesignpatterns/book/
 
 http://javascript.crockford.com/private.html
 
+##JavaScript constructors, prototypes, and the `new` keyword
+
+https://blog.pivotal.io/labs/labs/javascript-constructors-prototypes-and-the-new-keyword
+
 
 
