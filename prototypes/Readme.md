@@ -7,6 +7,9 @@ http://www.w3schools.com/js/js_object_prototypes.asp
 
 https://msdn.microsoft.com/en-us/library/hh924508%28v=vs.94%29.aspx
 
+##JavaScript constructors, prototypes, and the `new` keyword
+
+https://blog.pivotal.io/pivotal-labs/labs/javascript-constructors-prototypes-and-the-new-keyword
 
 ##Implement Inheritance and Polymorphism
 
