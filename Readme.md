@@ -2,6 +2,10 @@
 
 http://www.larryullman.com/books/modern-javascript-develop-and-design/
 
+##Annotated ECMAScript 5.1
+
+http://es5.github.io/#x8.2
+
 ##JSONLint
 
 http://jsonlint.com/
