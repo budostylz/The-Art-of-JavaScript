@@ -18,6 +18,12 @@ Function.prototype.apply()
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply
 
+Understanding It
+
+http://jsfiddle.net/budostylzz/zc2sLexw/
+
+
+
 
 
 
