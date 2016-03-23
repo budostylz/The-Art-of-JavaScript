@@ -22,6 +22,10 @@ Understanding It
 
 http://jsfiddle.net/budostylzz/zc2sLexw/
 
+##Understanding JavaScript’s this keyword
+
+https://javascriptweblog.wordpress.com/2010/08/30/understanding-javascripts-this/
+
 
 
 
