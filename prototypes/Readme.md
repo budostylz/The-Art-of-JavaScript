@@ -2,6 +2,9 @@
 
 http://www.w3schools.com/js/js_object_prototypes.asp
 
+##ProtoType Training
+
+http://ejohn.org/apps/learn/#64
 
 ##Prototypes and Prototype Inheritance
 
