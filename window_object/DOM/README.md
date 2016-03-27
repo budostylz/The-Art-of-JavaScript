@@ -78,6 +78,10 @@ http://courses.dce.harvard.edu/~cscie3/examples/week8/toc/toc.html#location8
 
 https://developers.google.com/speed/articles/reflow#guidelines
 
+##Make the Web Faster
+
+https://developers.google.com/speed/
+
 
 
 
