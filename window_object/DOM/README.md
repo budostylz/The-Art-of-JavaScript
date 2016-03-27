@@ -70,6 +70,14 @@ http://adam.merrifield.ca/presentations/dom_demystified/
 
 http://javascript.info/tutorial/traversing-dom
 
+##Walking & Manipulating the DOM
+
+http://courses.dce.harvard.edu/~cscie3/examples/week8/toc/toc.html#location8
+
+##Minimizing browser reflow 
+
+https://developers.google.com/speed/articles/reflow#guidelines
+
 
 
 
