@@ -42,4 +42,10 @@ http://www.w3schools.com/js/js_conventions.asp
 
 https://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/
 
+##HTML DOM Events
+
+http://www.w3schools.com/jsref/dom_obj_event.asp
+
+
+
 
