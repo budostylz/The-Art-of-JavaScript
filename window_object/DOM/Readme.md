@@ -50,6 +50,14 @@ https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/
 
 http://www.htmlgoodies.com/primers/jsp/article.php/3622321/Javascript-Basics-Part-12.htm
 
+##Adding and Removing Nodes (HTML Elements)
+
+http://www.w3schools.com/js/js_htmldom_nodes.asp
+
+##HTML DOM createElement() Method
+
+http://www.w3schools.com/jsref/met_document_createelement.asp
+
 ##XML VIEWER(Tree Viewer)
 
 XML VIEWER(Tree Viewer)

@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="https://developers.google.com/_static/b4a960ba35/css/screen-docs.css" />
+        <link rel="stylesheet" type="text/css" href="css/toc.css" />
+        <style>body{width:85%;margin: auto;padding-top:2em;}</style>
+    </head>
+    <body>
+  <div id="toc"></div>
+  <h1 itemprop="name" class="page-title" >CSCI E-3 Walking &amp; Manipulating the DOM</h1>
+  <div id="doit" class="button">Make a TOC!</div>
+  <div itemprop="articleBody">
+
+    <div>Borrowed From: <a href="https://developers.google.com/speed/articles/javascript-dom">https://developers.google.com/speed/articles/javascript-dom</a></div>
+
+  <p>Author: KeeKim Heng, Google Web Developer</p>
+<h2>Speeding up JavaScript: Working with the DOM</h2>
+  <p>When working with Rich Internet Applications, we write JavaScript that updates the page by changing elements or adding new ones. This is done by working with the DOM, or Document Object Model, and how we do this can affect the speed of our applications.</p>
+  <p>Working with the DOM can cause browser reflow, which is the browser's process of determining how things should be displayed. Directly manipulating the DOM, changing CSS styles of elements, and resizing the browser window can all trigger a reflow. Accessing an element's layout properties such as offsetHeight and offsetWidth can also trigger a reflow. Because each reflow takes time, the more we can minimise browser reflow, the faster our applications will be.</p>
+  <p>When working with the DOM we either manipulate existing elements on the page or generate new ones. The four patterns below cover both DOM manipulation and DOM generation and help reduce the amount of reflows triggered in the browser.</p>
+
+  <h3>CSS class switching DOM manipulation</h3>
+  <p>This pattern lets us change multiple style properties of an element and its descendants, triggering a single reflow.</p>
+
+  <h4>The problem</h4>
+  <p>Let's make a function that changes the className attribute for all anchors within an element. We could do this by simply iterating through each anchor and updating their className attributes. The problems is, this can cause a reflow for each anchor.</p>
+  <pre>function selectAnchor(element) {
+  element.style.fontWeight = 'bold';
+  element.style.textDecoration = 'none';
+  element.style.color = '#000';
+}</pre>
+
+  <h4>The solution</h4>
+  <p>To solve this problem we can create a class that sets all these style properties. Now we just trigger a single browser reflow by adding this class to our element. We also separate presentation from behaviour with this pattern.</p>
+  <pre>.selectedAnchor {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+function selectAnchor(element) {
+  element.className = 'selectedAnchor';
+}</pre>
+
+  <h3>Out-of-the-flow DOM Manipulation</h3>
+  <p>This pattern lets us create multiple elements and insert them into the DOM triggering a single reflow. It uses something called a DocumentFragment. We create a DocumentFragment outside of the DOM (so it is out-of-the-flow). We then create and add multiple elements to this. Finally, we move all elements in the DocumentFragment to the DOM but trigger a single reflow.</p>
+
+  <h4>The problem</h4>
+  <p>Let's make a function that changes the className attribute for all anchors within an element. We could do this by simply iterating through each anchor and updating their href attributes. The problems is, this can cause a reflow for each anchor.</p>
+  <pre>function updateAllAnchors(element, anchorClass) {
+  var anchors = element.getElementsByTagName('a');
+  for (var i = 0, length = anchors.length; i < length; i ++) {
+    anchors[i].className = anchorClass;
+  }
+}</pre>
+
+  <h4>The solution</h4>
+  <p>To solve this problem, we can remove the element from the DOM, update all anchors, and then insert the element back where it was. To help achieve this, we can write a reusable function that not only removes an element from the DOM, but also returns a function that will insert the element back into its original position.</p>
+  <pre>/**
+ * Remove an element and provide a function that inserts it into its original position
+ * @param element {Element} The element to be temporarily removed
+ * @return {Function} A function that inserts the element into its original position
+ **/
+function removeToInsertLater(element) {
+  var parentNode = element.parentNode;
+  var nextSibling = element.nextSibling;
+  parentNode.removeChild(element);
+  return function() {
+    if (nextSibling) {
+      parentNode.insertBefore(element, nextSibling);
+    } else {
+      parentNode.appendChild(element);
+    }
+  };
+}</pre>
+  <p>Now we can use this function to update the anchors within an element that is out-of-the-flow, and only trigger a reflow when we remove the element and when we insert the element.</p>
+  <pre>function updateAllAnchors(element, anchorClass) {
+  var insertFunction = removeToInsertLater(element);
+  var anchors = element.getElementsByTagName('a');
+  for (var i = 0, length = anchors.length; i < length; i ++) {
+    anchors[i].className = anchorClass;
+  }
+  insertFunction();
+}</pre>
+
+  <h3>Single Element DOM Generation</h3>
+  <p>This pattern lets us create and add a single element to the DOM triggering a single reflow. After creating the element, make all changes to the new element before adding it to the DOM.</p>
+
+  <h4>The problem</h4>
+  <p>Let's make a function that adds a new anchor element to a parent element. The function lets you provide the class and text for the anchor. We could do this by creating the element, adding it do the DOM, and then setting these properties. This can trigger 3 reflows.</p>
+  <pre>function addAnchor(parentElement, anchorText, anchorClass) {
+  var element = document.createElement('a');
+  parentElement.appendChild(element);
+  element.innerHTML = anchorText;
+  element.className = anchorClass;
+}</pre>
+
+  <h4>The solution</h4>
+  <p>To solve this, we insert the child into the DOM last. This triggers one reflow.</p>
+  <pre>function addAnchor(parentElement, anchorText, anchorClass) {
+  var element = document.createElement('a');
+  element.innerHTML = anchorText;
+  element.className = anchorClass;
+  parentElement.appendChild(element);
+}</pre>
+  <p>However, we have a problem if we decide we want to add a large number of anchors to an element. With this approach, each time we add a anchor it could trigger a reflow. The next pattern resolves this problem.</p>
+
+  <h3>DocumentFragment DOM Generation</h3>
+  <p>This pattern lets us create multiple elements and insert them into the DOM triggering a single reflow. It uses something called a DocumentFragment. We create a DocumentFragment outside of the DOM (so it is out-of-the-flow). We then create and add multiple elements to this. Finally, we move all elements in the DocumentFragment to DOM but trigger a single reflow.</p>
+
+  <h4>The problem</h4>
+  <p>Let's make a function that adds 10 anchors to an element. If we simply appended each new anchor directly to the element, we could trigger 10 reflows.</p>
+  <pre>function addAnchors(element) {
+  var anchor;
+  for (var i = 0; i < 10; i ++) {
+    anchor = document.createElement('a');
+    anchor.innerHTML = 'test';
+    element.appendChild(anchor);
+  }
+}</pre>
+
+  <h4>The solution</h4>
+  <p>To solve this problem, we create a DocumentFragment and append each new anchor to this. When we append the DocumentFragment to the element using appendChild, all the children of the DocumentFragment are actually appended to the element. This triggers a single reflow.</p>
+  <pre>function addAnchors(element) {
+  var anchor, fragment = document.createDocumentFragment();
+  for (var i = 0; i < 10; i ++) {
+    anchor = document.createElement('a');
+    anchor.innerHTML = 'test';
+    fragment.appendChild(anchor);
+  }
+  element.appendChild(fragment);
+}
+</pre>
+
+
+  </div>
+
+
+        </div>
+        <script type="text/javascript" src="js/toc.js"></script>
+    </body>
+</html>
