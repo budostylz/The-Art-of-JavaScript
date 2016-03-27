@@ -1,0 +1,24 @@
+﻿{
+                "users": [
+
+                       {
+                           "firstName": "Shaun",
+                           "lastName": "Lewis",
+                            "joined": {
+                              "day": 3,
+                              "month": "December",
+                              "year": 1978
+                            }
+                       },
+
+                        {
+                            "firstName": "Shahani",
+                            "lastName": "Lewis",
+                            "joined": {
+                              "day": 29,
+                              "month": "January",
+                              "year": 2003
+                            }
+                        }
+                ]
+            }

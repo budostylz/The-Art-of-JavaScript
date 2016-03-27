@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <h2>JSON</h2>
+    <div id="placeholder"></div>
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script>
+        $.getJSON('data.json', function (data) {
+            var output = "<ul>";
+            for (var i in data.users) {
+                output += "<li>" + data.users[i].firstName + " " + data.users[i].lastName + "--" + data.users[i].joined.month + "</li>";
+            }
+
+            output += "</ul>";
+            document.getElementById("placeholder").innerHTML = output;
+        });
+    </script>
+    <!--<script>
+        var data =
+            {
+                "users": [
+
+                       {
+                           "firstName": "Shaun",
+                           "lastName": "Lewis",
+                           "joined": {
+                               "month": "December",
+                               "day": 3,
+                               "year" : 1978
+                           }
+                       },
+
+                        {
+                            "firstName": "Shahani",
+                            "lastName": "Lewis",
+                            "joined": {
+                                "month": "January",
+                                "day": 29,
+                                "year": 2003
+                            }
+                        }
+                ]
+            }
+          
+        var output = "<ul>";
+
+        for (var i in data.users) {
+            output += "<li>" + data.users[i].firstName + " " + data.users[i].lastName + "--" + data.users[i].joined.month + "</li>";
+        }
+        output += "</ul>";
+
+        document.getElementById("placeholder").innerHTML = output;
+        //document.getElementById("placeholder").innerHTML = data.users[1].firstName + " " + data.users[1].lastName + "---" + data.users[1].joined.month;
+
+
+    </script> -->
+</body>
+</html>
