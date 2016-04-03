@@ -18,3 +18,17 @@ http://javascript.info/tutorial/bubbling-and-capturing
 
 http://www.cambiaresearch.com/articles/15/javascript-key-codes
 
+##InLine Event Handling
+
+http://jsfiddle.net/budostylzz/hqtezs0t/
+
+##Traditional Event Handling
+
+http://jsfiddle.net/budostylzz/xL6h9kgt/
+
+##DOM Level 3 Event Handling
+
+http://jsfiddle.net/budostylzz/vL77v0x0/
+
+
+
