@@ -107,7 +107,18 @@ http://courses.dce.harvard.edu/~cscie3/examples/week9/textarea.html
 http://courses.dce.harvard.edu/~cscie3/examples/week9/singleparallax.html
 
 ##Multiple Parallax
+
 http://courses.dce.harvard.edu/~cscie3/examples/week9/parallax.html
+
+##Understanding JavaScript Closures
+
+https://javascriptweblog.wordpress.com/2010/10/25/understanding-javascript-closures/
+
+##Javascript closure explained using events
+
+http://jondavidjohn.com/javascript-closure-explained-using-events/
+
+
 
 
 
