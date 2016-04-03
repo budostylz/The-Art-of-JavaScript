@@ -22,13 +22,13 @@ http://javascript.info/tutorial/bubbling-and-capturing
 
 http://jsfiddle.net/budostylzz/qonbe4so/
 
-##Event.preventDefault()
-
-https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
-
 ##Event.stopPropagation()
 
 https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation
+
+##Event.preventDefault()
+
+https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
 
 ##DOM Event Flow
 
