@@ -24,7 +24,7 @@ http://jsfiddle.net/budostylzz/hqtezs0t/
 
 ##Traditional Event Handling
 
-http://jsfiddle.net/budostylzz/xL6h9kgt/
+http://jsfiddle.net/budostylzz/9vmqpkbw/
 
 ##DOM Level 3 Event Handling
 
