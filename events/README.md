@@ -6,6 +6,10 @@ http://www.w3schools.com/jsref/dom_obj_event.asp
 
 https://developer.mozilla.org/en-US/docs/Web/API/Event
 
+##HTML DOM addEventListener() Method
+
+http://www.w3schools.com/jsref/met_element_addeventlistener.asp
+
 ##HTML DOM removeEventListener() Method
 
 http://www.w3schools.com/jsref/met_element_removeeventlistener.asp
