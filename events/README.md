@@ -18,6 +18,10 @@ http://www.w3schools.com/jsref/met_element_removeeventlistener.asp
 
 http://javascript.info/tutorial/bubbling-and-capturing
 
+##DOM Event Flow
+
+https://www.w3.org/TR/2003/NOTE-DOM-Level-3-Events-20031107/events.html#Events-phases
+
 ##Javascript Key Codes
 
 http://www.cambiaresearch.com/articles/15/javascript-key-codes
