@@ -26,6 +26,10 @@ http://jsfiddle.net/budostylzz/qonbe4so/
 
 https://www.w3.org/TR/2003/NOTE-DOM-Level-3-Events-20031107/events.html#Events-phases
 
+##Handling Events for Many Elements
+
+https://www.kirupa.com/html5/handling_events_for_many_elements.htm
+
 ##Javascript Key Codes
 
 http://www.cambiaresearch.com/articles/15/javascript-key-codes
