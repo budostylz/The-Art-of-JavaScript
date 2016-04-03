@@ -66,3 +66,7 @@ https://www.kirupa.com/html5/keyboard_events_in_javascript.htm
 
 http://www.cambiaresearch.com/articles/15/javascript-key-codes
 
+##Keyboard Keys and Key Code Values
+
+http://help.adobe.com/en_US/AS2LCR/Flash_10.0/help.html?content=00000520.html
+
