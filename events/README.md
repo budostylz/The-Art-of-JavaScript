@@ -6,6 +6,10 @@ http://www.w3schools.com/jsref/dom_obj_event.asp
 
 https://developer.mozilla.org/en-US/docs/Web/API/Event
 
+##Event reference
+
+https://developer.mozilla.org/en-US/docs/Web/Events
+
 ##HTML DOM addEventListener() Method
 
 http://www.w3schools.com/jsref/met_element_addeventlistener.asp
@@ -89,6 +93,14 @@ http://jsfiddle.net/budostylzz/8ebpw3hf/
 ##Pong Game
 
 http://courses.dce.harvard.edu/~cscie3/examples/week9/events.html
+
+##Form Event(change)
+
+https://developer.mozilla.org/en-US/docs/Web/Events/change
+
+##Cool Text Editor
+
+http://courses.dce.harvard.edu/~cscie3/examples/week9/textarea.html
 
 
 
