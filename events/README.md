@@ -78,4 +78,10 @@ http://courses.dce.harvard.edu/~cscie3/examples/week9/mouseevent.html
 
 http://www.w3schools.com/jsref/event_key_keycode.asp
 
+##JavaScript KeyCodes Fiddle
+
+http://jsfiddle.net/budostylzz/8ebpw3hf/
+
+
+
 
