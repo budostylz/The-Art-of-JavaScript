@@ -102,6 +102,15 @@ https://developer.mozilla.org/en-US/docs/Web/Events/change
 
 http://courses.dce.harvard.edu/~cscie3/examples/week9/textarea.html
 
+##Single Parallax(Parallax -> Elements Scroll at Different Rates
+
+http://courses.dce.harvard.edu/~cscie3/examples/week9/singleparallax.html
+
+##Multiple Parallax
+http://courses.dce.harvard.edu/~cscie3/examples/week9/parallax.html
+
+
+
 
 
 
