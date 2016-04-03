@@ -1,0 +1,21 @@
+/*  bubble.css */
+
+#biggest {
+    background-color:yellow;
+    width: 300px;
+    height: 500px;
+}
+#smaller {
+    background-color:orange;
+    width: 200px;
+    margin: 10px;
+    height: 200px;
+}
+.button{
+    margin: 25px;
+    border: 1px solid gray;
+    width: 75px;
+}
+.button:hover{
+     cursor:pointer;
+}

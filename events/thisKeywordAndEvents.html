@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <script>
+            function plainInline() {
+                console.log("PlainInline: unless I pass a 'this', then 'this' is the global context: "+this);
+                return false;
+            }
+            function inlineWithThisPassed(obj) {
+                console.log("If I pass in 'this' from the tag that triggers the event, then I have access to that object: " + obj + ", though 'this' inside the function is still the global object (window):" + this);
+                return false;
+            }
+            window.onload = function(){
+                document.getElementById("traditional").onclick=function(){
+                    console.log("With a traditional assignment, 'this' is the object that the event is attched to. Here's the event triggered on the link itself"+ this);
+                    return false;
+                }
+                document.getElementById("w3c").addEventListener("click", function(e){
+                    console.log("With w3c assignment, 'this' is also the object that the event is attached to. Here's the event triggered on the link itself"+ this);
+                    e.preventDefault();
+                });
+                document.getElementById("container").addEventListener("click", function(e){
+                    console.log("If the event is attached to another element and bubbled from the clicked item, 'this' is that element: "+ this);
+                    e.preventDefault();
+                });
+            }
+        </script>
+    </head>
+    <body>
+        <h3>this and events</h3>
+        <a href="http://www.harvard.edu" onclick="return plainInline()">Click me for an inline handler</a><blockquote>e.g. onclick="doSomething()" </blockquote>
+        <a href="http://www.harvard.edu" onclick="return inlineWithThisPassed(this)">Click me for an inline handler with this passed in</a> <blockquote>e.g. onclick="doSomething(this)" </blockquote>
+        <a href="http://www.harvard.edu" id="traditional">Click me for an traditional handler</a> <blockquote>e.g. el.onclick = function(){ // do something } </blockquote>
+        <a href="http://www.harvard.edu" id="w3c">Click me for a handler using w3c DOM3 method </a> <blockquote>e.g. el.addEventListener("click", function(){ // do something }) </blockquote>
+        <div id="container" style="padding:4px;border:1px solid gray; width:20em;"><a href="http://www.harvard.edu" id="contained">Click me for a handler using w3c DOM3 method attached to a parent element</a></div>
+        <blockquote>e.g. parentEl.addEventListener("click", function(){ // do something }) </blockquote>
+    </body>
+</html>

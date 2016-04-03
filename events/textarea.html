@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <style>
+            #viewer {
+              padding: 2px;
+              border:1px solid black;
+            }
+            #editor {
+              display:none;
+              border: 3px solid gray;
+              padding: 0px;
+            }
+            .entry {
+              height:200px;
+              width:400px;
+              font-family:arial;
+            }
+        </style>
+        <script src="js/textarea.js"></script>
+    </head>
+    <body>
+        <h3>Examples with Input</h3>
+        <div id="">
+            <h4>Enter your content here</h4>
+
+            <p>Press crtl-e to edit; crtl-s to "save"</p>
+            <textarea id="editor" class="entry"></textarea>
+
+            <div id="viewer" class="entry">This is a tutorial on keyboard events!</div>
+            <div id="charcount">Charcount is: <span id="count"></span></div>
+        </div>
+
+    </body>
+</html>
