@@ -38,10 +38,6 @@ https://www.w3.org/TR/2003/NOTE-DOM-Level-3-Events-20031107/events.html#Events-p
 
 https://www.kirupa.com/html5/handling_events_for_many_elements.htm
 
-##Javascript Key Codes(Test Your Key Codes Here)
-
-http://www.cambiaresearch.com/articles/15/javascript-key-codes
-
 ##InLine Event Handling
 
 http://jsfiddle.net/budostylzz/hqtezs0t/
@@ -54,5 +50,19 @@ http://jsfiddle.net/budostylzz/9vmqpkbw/
 
 http://jsfiddle.net/budostylzz/vL77v0x0/
 
+##MouseEvent
 
+https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent
+
+##MouseEvent relatedTarget Property
+
+http://www.w3schools.com/jsref/event_relatedtarget.asp
+
+##Working With the Keyboard
+
+https://www.kirupa.com/html5/keyboard_events_in_javascript.htm
+
+##Javascript Key Codes(Test Your Key Codes Here)
+
+http://www.cambiaresearch.com/articles/15/javascript-key-codes
 
