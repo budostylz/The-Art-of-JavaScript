@@ -2,13 +2,13 @@
 
 http://www.w3schools.com/jsref/dom_obj_event.asp
 
-##HTML DOM removeEventListener() Method
-
-http://www.w3schools.com/jsref/met_element_removeeventlistener.asp
-
 ##Event
 
 https://developer.mozilla.org/en-US/docs/Web/API/Event
+
+##HTML DOM removeEventListener() Method
+
+http://www.w3schools.com/jsref/met_element_removeeventlistener.asp
 
 ##Bubbling and capturing
 
