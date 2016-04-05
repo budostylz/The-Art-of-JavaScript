@@ -6,6 +6,10 @@ https://developer.mozilla.org/en-US/docs/Web/API/Element
 
 https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
 
+##Document
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document
+
 ##The HTML DOM Element Object
 
 http://www.w3schools.com/jsref/dom_obj_all.asp
