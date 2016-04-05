@@ -80,7 +80,7 @@ http://adam.merrifield.ca/presentations/dom_demystified/
 
 ##DOM Tutorial
 
-http://javascript.info/tutorial/traversing-dom
+http://javascript.info/tutorial/dom
 
 ##Walking & Manipulating the DOM
 
