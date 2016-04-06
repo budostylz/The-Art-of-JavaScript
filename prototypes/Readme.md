@@ -32,6 +32,10 @@ http://jsfiddle.net/budostylzz/zc2sLexw/
 
 https://javascriptweblog.wordpress.com/2010/08/30/understanding-javascripts-this/
 
+##Call() and Apply()
+
+http://jsfiddle.net/nr311sof/
+
 
 
 
