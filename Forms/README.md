@@ -10,6 +10,10 @@ https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormControlsCollection
 
 http://jsfiddle.net/budostylzz/15jtaqmj/
 
+##Finding input fields and controls in a form
+
+http://jsfiddle.net/budostylzz/wfybeca3/
+
 
 
 
