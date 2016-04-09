@@ -18,6 +18,10 @@ http://jsfiddle.net/budostylzz/wfybeca3/
 
 http://www.the-art-of-web.com/html/html5-form-validation/
 
+##Constraint Validation
+
+https://html.spec.whatwg.org/#constraint-validation-api
+
 
 
 
