@@ -1,4 +1,4 @@
-
+//forEach prototype
 var f = document.forms[0];
 var els = f.elements;
 
