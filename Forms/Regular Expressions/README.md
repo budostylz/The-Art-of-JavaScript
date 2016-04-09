@@ -18,3 +18,13 @@ https://en.wikipedia.org/wiki/Search_algorithm#For_quantum_computers
 
 http://www.w3schools.com/jsref/jsref_obj_string.asp
 
+#Form Validation
+
+
+##Test Regular Expressions Here
+
+https://www.debuggex.com
+
+http://www.regexpal.com
+
+http://www.regexr.com
