@@ -9,5 +9,9 @@ http://www.w3schools.com/ajax/default.asp
   3. Making a Request
   4. Handling Server Response
   
+##Simple AJAX call to load an HTML document
+
+http://jsfiddle.net/budostylzz/0fz22skp/
+  
 
 
