@@ -6,14 +6,6 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
 
 https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormControlsCollection
 
-##Finding forms in the page
-
-http://jsfiddle.net/budostylzz/15jtaqmj/
-
-##Finding input fields and controls in a form
-
-http://jsfiddle.net/budostylzz/wfybeca3/
-
 ##HTML: HTML5 Form Validation Examples
 
 http://www.the-art-of-web.com/html/html5-form-validation/
@@ -29,6 +21,14 @@ https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Data_form_validati
 ##Constraint Validation: Native Client Side Validation for Web Forms
 
 http://www.html5rocks.com/en/tutorials/forms/constraintvalidation/
+
+##Finding forms in the page
+
+http://jsfiddle.net/budostylzz/15jtaqmj/
+
+##Finding input fields and controls in a form
+
+http://jsfiddle.net/budostylzz/wfybeca3/
 
 ##Form onsubmit event
 
