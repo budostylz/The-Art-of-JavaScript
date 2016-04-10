@@ -21,6 +21,10 @@ https://msdn.microsoft.com/en-us/library/cc288060(v=vs.85).aspx
 
 http://jsfiddle.net/budostylzz/0fz22skp/
 
+##Simple AJAX
+
+http://jsfiddle.net/budostylzz/2f84tcx5/
+
 ##HTTP access control (CORS)
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS
