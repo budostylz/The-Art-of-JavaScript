@@ -22,6 +22,10 @@ http://www.w3schools.com/jsref/jsref_obj_string.asp
 
 http://jsfiddle.net/budostylzz/4tvf57a9/
 
+##Regular Expression Requirement
+
+http://jsfiddle.net/budostylzz/zzqag6bo/
+
 ##Test Regular Expressions Here
 
 https://www.debuggex.com
