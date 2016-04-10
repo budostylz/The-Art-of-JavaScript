@@ -6,6 +6,10 @@ http://www.w3schools.com/ajax/default.asp
 
 https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
 
+##XDomainRequest object
+
+https://msdn.microsoft.com/en-us/library/cc288060(v=vs.85).aspx
+
 ## AJAX Steps
 
   1. Create AJAX Object
