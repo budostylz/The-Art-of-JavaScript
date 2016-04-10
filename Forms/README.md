@@ -30,6 +30,26 @@ https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Data_form_validati
 
 http://www.html5rocks.com/en/tutorials/forms/constraintvalidation/
 
+##Form onsubmit event
+
+http://jsfiddle.net/cscie3/yf9hp60c/
+
+##Populating a Select
+
+http://jsfiddle.net/cscie3/s00vffqk/
+
+##Showing/Hiding Parts of a Form
+
+http://jsfiddle.net/cscie3/4accjq0h/
+
+##Counting Characters
+
+http://jsfiddle.net/cscie3/b4p0gy6m/
+
+##HTML Input element 'validity' property
+
+http://jsfiddle.net/cscie3/zfw0d4g6/
+
 
 
 
