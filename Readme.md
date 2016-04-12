@@ -54,6 +54,10 @@ https://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/
 
 http://www.w3schools.com/jsref/dom_obj_event.asp
 
+##Choose Your Radius Wisely
+
+http://courses.dce.harvard.edu/~cscie3/examples/week3/circleAreaExample/circleArea.html
+
 
 
 
