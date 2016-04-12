@@ -17,3 +17,11 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 ##Debugging JavaScript
 
 https://developer.chrome.com/devtools/docs/javascript-debugging
+
+##The HTML DOM Document Object
+
+http://www.w3schools.com/jsref/met_document_getelementbyid.asp
+
+##HTML DOM getElementById() Method
+
+http://www.w3schools.com/jsref/met_document_getelementbyid.asp
