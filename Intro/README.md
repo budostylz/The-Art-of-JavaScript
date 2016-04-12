@@ -34,6 +34,14 @@ http://stackoverflow.com/questions/4090518/what-is-the-difference-between-parsei
 
 https://web.archive.org/web/20140116231657/http://karlmendes.com/2011/11/understanding-javascript-automatic-type-conversion/
 
+##JavaScript Use Strict
+
+http://www.w3schools.com/js/js_strict.asp
+
+##ECMAScript 5 strict mode in Firefox 4
+
+https://hacks.mozilla.org/2011/01/ecmascript-5-strict-mode-in-firefox-4/
+
 ##Understand Force You Must
 
 https://jsfiddle.net/budostylzz/7emqvc9L/
