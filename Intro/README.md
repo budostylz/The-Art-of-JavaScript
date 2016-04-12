@@ -25,3 +25,7 @@ http://www.w3schools.com/jsref/met_document_getelementbyid.asp
 ##HTML DOM getElementById() Method
 
 http://www.w3schools.com/jsref/met_document_getelementbyid.asp
+
+##Understand Force You Must
+
+https://jsfiddle.net/budostylzz/7emqvc9L/
