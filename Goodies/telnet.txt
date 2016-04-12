@@ -1,0 +1,13 @@
+Items in bold are your input
+
+command_prompt> telnet www.extension.harvard.edu 80
+
+    Trying 184.73.205.16...
+    Connected to acquia.dce.harvard.edu.
+    Escape character is '^]'.
+   
+   GET / HTTP/1.1**
+   host: www.extension.harvard.edu
+   (hit Enter twice)
+   
+   Web server responds with the HTML page requested
