@@ -1,0 +1,25 @@
+/*  CSS file for circle area exercise */
+
+.button {
+    border:1px solid #eda933;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:45px;
+    width:90px;
+    line-height:45px;
+    padding: .5em;
+    text-align:center;
+    background-color:#f6b33d;
+}
+
+.button:hover{
+    border: 2px solid #000;
+}
+
+#myCircle {
+    width:10px;
+    height:10px
+}
