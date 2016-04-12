@@ -14,6 +14,10 @@ http://www.w3schools.com/cssref/css_selectors.asp
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
+##Debugging JavaScript
+
+https://developer.chrome.com/devtools/docs/javascript-debugging
+
 ##Code Examples From 'Modern JavaScript Develop and Design'
 
 http://www.larryullman.com/books/modern-javascript-develop-and-design/
