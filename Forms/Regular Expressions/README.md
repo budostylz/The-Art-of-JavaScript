@@ -1,6 +1,6 @@
 ##Regular expressions in JavaScript
 
-http://javascript.info/tutorial/regular-expressions-methods
+http://javascript.info/tutorial/regular-expressions-javascript
 
 ##JavaScript Regular Expressions
 
