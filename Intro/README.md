@@ -46,6 +46,18 @@ http://www.w3schools.com/js/js_strict.asp
 
 https://hacks.mozilla.org/2011/01/ecmascript-5-strict-mode-in-firefox-4/
 
+##JavaScript Math Reference
+
+http://www.w3schools.com/jsref/jsref_obj_math.asp
+
+##JavaScript String Reference
+
+http://www.w3schools.com/jsref/jsref_obj_string.asp
+
+##JavaScript Number Reference
+
+http://www.w3schools.com/jsref/jsref_obj_number.asp
+
 ##Understand Force You Must
 
 https://jsfiddle.net/budostylzz/7emqvc9L/
