@@ -1,5 +1,8 @@
+##JavaScript
 
-##Code Examples From 'Modern JavaScript Develop and Design'
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+##Some Code Examples From 'Modern JavaScript Develop and Design'
 
 http://www.larryullman.com/books/modern-javascript-develop-and-design/
 
