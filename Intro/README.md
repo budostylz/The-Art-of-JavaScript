@@ -22,6 +22,10 @@ https://developer.chrome.com/devtools/docs/javascript-debugging
 
 http://www.w3schools.com/jsref/met_document_getelementbyid.asp
 
+##JavaScript and HTML DOM Reference
+
+http://www.w3schools.com/jsref/default.asp
+
 ##HTML DOM getElementById() Method
 
 http://www.w3schools.com/jsref/met_document_getelementbyid.asp
