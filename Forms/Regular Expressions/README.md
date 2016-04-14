@@ -12,7 +12,7 @@ http://www.w3schools.com/jsref/jsref_obj_regexp.asp
 
 ##Search algorithm
 
-https://en.wikipedia.org/wiki/Search_algorithm#For_quantum_computers
+en.wikipedia.org/wiki/Search_algorithm
 
 ##JavaScript String Reference
 
