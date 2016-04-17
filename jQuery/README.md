@@ -30,6 +30,10 @@ http://api.jquery.com/category/selectors/
 
 http://api.jquery.com/category/utilities/
 
+##Category: Ajax
+
+http://api.jquery.com/category/ajax/
+
 #Fiddles
 
 ##$.each()
