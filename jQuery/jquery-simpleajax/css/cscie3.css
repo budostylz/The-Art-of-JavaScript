@@ -1,0 +1,66 @@
+
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.428571429;
+	color: #333;
+}
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+h4 {
+	border-top: 1px solid black;
+	padding-top: 1em;
+	width: 95%;
+}
+
+.hint {
+	display:none;
+	color:red;
+}
+
+.button {
+    text-indent:0;
+    border:1px solid #eda933;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:65px;
+    line-height:65px;
+    padding: .5 em;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #cd8a15;
+    background-color:#f6b33d;
+}
+
+.list_style1{
+	border: 1px solid #ccc;
+	width: 12em;
+	padding: 2em;
+	background-color: rgb(252, 236, 215);
+}
+.list_style2{
+	border: 1px solid #ccc;
+	width: 12em;
+	padding: 2em;
+	background-color: rgb(152, 175, 173);
+}
+.list_style2 li {
+	list-style-image: url(../img/arrow_right.png);
+}
+.myTable{
+	width: 28em;
+	border: 1px solid #aaa;
+}
+.myTable th {
+	border-bottom: 1px solid #a88;
+}
+.uid{
+	width: 10em;
+}
