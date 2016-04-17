@@ -29,3 +29,9 @@ http://api.jquery.com/category/selectors/
 ##Category: Utilities
 
 http://api.jquery.com/category/utilities/
+
+#Fiddles
+
+##$.each()
+
+http://jsfiddle.net/budostylzz/Ld06pnfp/
