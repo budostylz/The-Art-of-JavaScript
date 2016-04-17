@@ -39,3 +39,7 @@ http://api.jquery.com/category/ajax/
 ##$.each()
 
 http://jsfiddle.net/budostylzz/Ld06pnfp/
+
+##Basic(s)
+
+http://jsfiddle.net/budostylzz/kczerpud/
