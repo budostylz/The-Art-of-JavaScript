@@ -39,9 +39,11 @@ http://api.jquery.com/jQuery.extend/
 
 http://jsfiddle.net/budostylzz/buv5qLge/
 
-##plugin structure
+##plugin fiddles
 
 http://jsfiddle.net/budostylzz/buv5qLge/1/
+
+http://jsfiddle.net/budostylzz/defrrwbk/
 
 ##Examples(page source: jquery_plugin.js)
 
