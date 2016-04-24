@@ -32,3 +32,29 @@ http://james.padolsey.com/javascript/extending-jquerys-selector-capabilities/
 ##Essential jQuery Plugin Patterns
 
 https://www.smashingmagazine.com/2011/10/essential-jquery-plugin-patterns/
+
+##$.extend()
+
+http://api.jquery.com/jQuery.extend/
+
+http://jsfiddle.net/budostylzz/buv5qLge/
+
+##plugin structure
+
+http://jsfiddle.net/budostylzz/buv5qLge/1/
+
+##Examples(page source: jquery_plugin.js)
+
+http://courses.dce.harvard.edu/~cscie3/examples/week12/highlighter/jquery_plugin.html
+
+http://courses.dce.harvard.edu/~cscie3/examples/week12/configurable-highlighter/jquery_plugin.html
+
+http://courses.dce.harvard.edu/~cscie3/examples/week12/showlinks-highlighter/jquery_plugin.html
+
+##Pseudo-Class Selectors
+
+http://jsfiddle.net/budostylzz/ewfgyd5j/
+
+##Filters
+
+http://jsfiddle.net/budostylzz/4sv16hr7/
