@@ -13,6 +13,12 @@ http://benalman.com/news/2010/11/immediately-invoked-function-expression/
 
 ##How to Create a Basic Plugin
 
+	1. Add a function to $.fn
+	2. Return the original object to support chaining
+	3. Wrap everything inside a self-invoking function to preserve scope and the $
+	4. Have a default configuration, but allow easy user-configuration
+	5. Determine whether you need $.each() to access elements 
+
 http://learn.jquery.com/plugins/basic-plugin-creation/
 
 ##Meet the Pseudo Class Selectors
