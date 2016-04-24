@@ -1,7 +1,7 @@
 ##Creating your own JavaScript Library
 
 	Step 1: Identify the purpose of your library
-	Step 2: Mock-up how would use the library
+	Step 2: Mock-up how you would use the library
 	Step 3: Code up an outline
 	Step 4: Fix-up the constructor
 
