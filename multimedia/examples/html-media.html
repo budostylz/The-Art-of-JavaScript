@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+        <script src="js/html-media.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="css/html-media.css">
+    </head>
+    <body> <!-- src="http://www.fas.harvard.edu/~lbouthillier/dogsonbeach_800k.mp4" -->
+        <video  id="dogs"
+                src="media/dogsonbeach_800k.mp4"
+                type="video/mp4"
+                controls="true"
+                poster="http://content.neit.edu/static/cscie3/ext.jpg">
+            I can't play this!
+        </video>
+        <div>
+            <button id="playBtn">&#x25BA;</button>
+            <button id="pauseBtn">&#x2590&#x2590</button>
+            <button id="volUpBtn">Increase Volume</button>
+            <button id="volDnBtn">Decrease Volume</button>
+            Current Volume: <span id="currentVolume"></span>
+            <br>
+
+            Seek to:<br>
+            <button id="0s" data-sec="0" class="seekBtn">0s</button>
+            <button id="20s" data-sec="20" class="seekBtn">20s</button>
+            <button id="40s"  data-sec="40" class="seekBtn">40s</button>
+            <br>
+            <button id="speed-plus" class="speedBtn">Speed +20%</button>
+            <button id="speed-minus" class="speedBtn">Speed -20%</button>
+            <button id="speed-normal" class="speedBtn">Speed Normal</button>
+            Current Speed: <span id="currentSpeed"></span>
+            <div>Current Time:<span id="currentTime"></span></div>
+        </div>
+        <div id="info">
+            <div id="canplay"></div>
+            <div id="buffered"></div>
+            <div id="seekBar">
+                <div id="downloadedBar"></div>
+            </div>
+        </div>
+    </body>
+</html>

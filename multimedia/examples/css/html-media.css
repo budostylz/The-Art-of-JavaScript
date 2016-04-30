@@ -1,0 +1,18 @@
+            #dogs{
+                width: 400px;
+                height: 270px;
+            }
+
+
+
+            #seekBar{
+                width:400px;
+                height:10px;
+                background-color: gray;
+                border: 1px solid black;
+            }
+            #downloadedBar{
+                width: 0px;
+                height:10px;
+                background-color: green;
+            }
