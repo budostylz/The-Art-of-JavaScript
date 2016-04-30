@@ -2,7 +2,7 @@
 
 http://www.w3schools.com/js/js_object_prototypes.asp
 
-##ProtoType Ninja Training
+##ProtoType Ninja Training(John Resig)
 
 http://ejohn.org/apps/learn/#64
 
