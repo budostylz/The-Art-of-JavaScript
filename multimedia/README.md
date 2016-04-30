@@ -24,3 +24,7 @@ http://jsfiddle.net/budostylzz/4tdmryez/
 
 http://jsfiddle.net/budostylzz/pr02aagt/
 
+##Examples
+
+http://courses.dce.harvard.edu/~cscie3/examples/week13/html-media.html
+
