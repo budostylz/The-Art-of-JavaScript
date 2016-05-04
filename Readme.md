@@ -58,6 +58,12 @@ http://www.w3schools.com/jsref/dom_obj_event.asp
 
 http://courses.dce.harvard.edu/~cscie3/examples/week3/circleAreaExample/circleArea.html
 
+##CSS Selector Reference
+
+http://www.w3schools.com/cssref/css_selectors.asp
+
+
+
 
 
 
