@@ -1,0 +1,12 @@
+            #vid{
+                width: 400px;
+                height: 270px;
+            }
+            #c1{
+                border: 1px solid black;
+            }
+            img {
+                padding: 5px;
+                border: 3px outset gray;
+                margin: 3px;
+            }

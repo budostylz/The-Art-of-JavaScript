@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+        <script type="text/javascript" src="js/canvas-video.js"></script>
+        <link rel="stylesheet" href="css/canvas.css">
+            <style type="text/css">
+                img{
+                    width: 120px;
+                }
+
+            </style>
+    </head>
+    <body>
+        <p>While the video is playing, every three seconds a new still image from the video will be added to the page as a png file.
+        This feature will only work if this file is served from a web server, due to CORS restrictions. </p>
+        <video  id="vid"
+                src="media/dogsonbeach_800k.mp4"
+                type="video/mp4"
+                controls="true"
+                poster="http://content.neit.edu/static/cscie3/ext.jpg">
+            I can't play this!
+        </video>
+        <input type="button" id="thumbnail" value="Capture!"></input>
+        <canvas id="c1" width="400" height="270"></canvas>
+    </body>
+</html>
