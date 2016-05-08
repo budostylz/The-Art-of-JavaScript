@@ -20,7 +20,7 @@ http://jsbeautifier.org/
 
 ##JavaScript Minifier
 
-http://javascript-minifier.com/
+http://jscompress.com
 
 ##Introducing JSON
 
