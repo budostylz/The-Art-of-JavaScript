@@ -1,4 +1,3 @@
-## Media formats supported by the HTML audio and video elements
 ##BLOWING UP HTML5 VIDEO AND MAPPING IT INTO 3D SPACE
 
 http://craftymind.com/factory/html5video/CanvasVideo.html
