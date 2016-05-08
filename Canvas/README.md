@@ -64,6 +64,8 @@ http://corehtml5canvas.com
 
 http://jsfiddle.net/o7n9or72/
 
+http://jsfiddle.net/ydhhk3q4/
+
 
 
 ##CORS enabled image
