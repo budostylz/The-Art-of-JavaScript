@@ -20,7 +20,7 @@ http://jsbeautifier.org/
 
 ##JavaScript Minifier
 
-http://javascript-minifier.com/
+http://jscompress.com
 
 ##Introducing JSON
 
@@ -57,6 +57,12 @@ http://www.w3schools.com/jsref/dom_obj_event.asp
 ##Choose Your Radius Wisely
 
 http://courses.dce.harvard.edu/~cscie3/examples/week3/circleAreaExample/circleArea.html
+
+##CSS Selector Reference
+
+http://www.w3schools.com/cssref/css_selectors.asp
+
+
 
 
 
