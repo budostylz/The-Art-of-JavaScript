@@ -26,9 +26,13 @@ http://headjs.com/site/api/v1.00.html
 
 http://requirejs.org/
 
-##Vanilla js
+##Angular.js
 
-http://vanilla-js.com/
+https://angularjs.org/
+
+##Node.js
+
+https://nodejs.org/en/
 
 ##Analytics for Web (analytics.js) 
 
