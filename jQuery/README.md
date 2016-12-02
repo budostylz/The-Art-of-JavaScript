@@ -39,6 +39,10 @@ http://api.jquery.com/category/ajax/
 
 http://www.htmlgoodies.com/beyond/javascript/making-promises-with-jquery-deferred.html
 
+##Asynch JS: The Power Of $.Deferred
+
+https://www.html5rocks.com/en/tutorials/async/deferred/
+
 #Fiddles
 
 ##$.each()
