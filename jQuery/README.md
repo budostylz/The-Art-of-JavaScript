@@ -35,6 +35,10 @@ http://api.jquery.com/category/utilities/
 
 http://api.jquery.com/category/ajax/
 
+##Promise
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
 ##Making Promises With jQuery Deferred
 
 http://www.htmlgoodies.com/beyond/javascript/making-promises-with-jquery-deferred.html
