@@ -1,3 +1,4 @@
+
 ##jQuery
 
 http://jquery.com
@@ -33,6 +34,10 @@ http://api.jquery.com/category/utilities/
 ##Category: Ajax
 
 http://api.jquery.com/category/ajax/
+
+##Making Promises With jQuery Deferred
+
+http://www.htmlgoodies.com/beyond/javascript/making-promises-with-jquery-deferred.html
 
 #Fiddles
 
