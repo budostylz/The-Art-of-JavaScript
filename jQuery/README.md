@@ -1,4 +1,3 @@
-
 ##jQuery
 
 http://jquery.com
@@ -56,3 +55,8 @@ http://jsfiddle.net/budostylzz/Ld06pnfp/
 ##Basic(s)
 
 http://jsfiddle.net/budostylzz/kczerpud/
+
+##jQuery.Deferred is the most important client-side tool you have
+
+http://eng.wealthfront.com/2012/12/04/jquerydeferred-is-most-important-client/
+
