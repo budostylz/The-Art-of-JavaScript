@@ -37,7 +37,10 @@ http://arunranga.com/examples/access-control/
 
 http://www.html5rocks.com/en/tutorials/cors/
 
+##Limit on the length of the data that a webserver can return in response to a GET request
 
-  
+http://stackoverflow.com/questions/16172524/limit-on-the-length-of-the-data-that-a-webserver-can-return-in-response-to-a-get
+    
+ 
 
 
