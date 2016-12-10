@@ -70,7 +70,9 @@ https://cdnjs.com/
 
 http://html5index.org
 
+##AngularJS. Executing long-running tasks
 
+http://stackoverflow.com/questions/27126955/angularjs-executing-long-running-tasks
 
 
 
