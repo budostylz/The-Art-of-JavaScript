@@ -1,4 +1,4 @@
-﻿##List of JavaScript libraries
+##List of JavaScript libraries
 
 https://en.m.wikipedia.org/wiki/List_of_JavaScript_libraries
 
@@ -78,12 +78,9 @@ http://code.stephenmorley.org/javascript/collapsible-lists/
 
 https://datatables.net/examples/advanced_init/row_grouping.html
 
+##Parallel.js
 
-
-
-
-
-
+https://parallel.js.org
 
 
 
