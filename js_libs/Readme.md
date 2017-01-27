@@ -45,7 +45,6 @@ http://videojs.com/
 ##MediaElement.js - HTML5 video player and audio player with Flash and Silverlight shims
 
 http://mediaelementjs.com/
-
 ##jQuery Mobile
 
 https://jquerymobile.com/
@@ -93,3 +92,7 @@ http://www.slidesjs.com/
 ##ResponsiveSlides.js v1.55
 
 http://responsiveslides.com/
+
+##Camera
+
+http://www.pixedelic.com/plugins/camera/
