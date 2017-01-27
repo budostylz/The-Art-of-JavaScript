@@ -26,7 +26,7 @@ http://headjs.com/site/api/v1.00.html
 
 http://requirejs.org/
 
-##Angular.js
+###Angular.js
 
 https://angularjs.org/
 
@@ -86,6 +86,7 @@ https://parallel.js.org
 
 http://datajs.codeplex.com/wikipage?title=Overview&referringTitle=Getting%20Started
 
+##SlidesJS
 
-
+http://www.slidesjs.com/
 
