@@ -90,3 +90,6 @@ http://datajs.codeplex.com/wikipage?title=Overview&referringTitle=Getting%20Star
 
 http://www.slidesjs.com/
 
+##ResponsiveSlides.js v1.55
+
+http://responsiveslides.com/
