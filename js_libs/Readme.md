@@ -1,98 +1,103 @@
-##List of JavaScript libraries
+## List of JavaScript libraries
 
 https://en.m.wikipedia.org/wiki/List_of_JavaScript_libraries
 
-##Backgrid.js
+## Backgrid.js
 
 http://backgridjs.com/#basic-example
 
-##Moment.js
+## Moment.js
 
 http://momentjs.com/
 
-##Bounce js
+## Bounce js
 
 http://bouncejs.com/
 
-##Modernizr
+## Modernizr
 
 https://modernizr.com/
 
-##Head js
+## Head js
 
 http://headjs.com/site/api/v1.00.html
 
-##Require js
+## Require js
 
 http://requirejs.org/
 
-###Angular.js
-
+### Angular.js
+ 
 https://angularjs.org/
 
-##Node.js
+## Node.js
 
 https://nodejs.org/en/
 
-##Analytics for Web (analytics.js) 
+## Analytics for Web (analytics.js) 
 
 https://developers.google.com/analytics/devguides/collection/analyticsjs/?hl=en
 
-##Video.js: The Player Framework
+## Video.js: The Player Framework
 
 http://videojs.com/
 
-##MediaElement.js - HTML5 video player and audio player with Flash and Silverlight shims
+## MediaElement.js - HTML5 video player and audio player with Flash and Silverlight shims
 
 http://mediaelementjs.com/
-##jQuery Mobile
+
+## jQuery Mobile
 
 https://jquerymobile.com/
 
-##Sencha Touch
+## Sencha Touch
 
 https://www.sencha.com/products/touch/#overview
 
-##Zepto js
+## Zepto js
 
 http://zeptojs.com/
 
-##Blackbird - Open Source JavaScript Logging Utility
+## Blackbird - Open Source JavaScript Logging Utility
 
 http://demo.jb51.net/js/Blackbird/index.html
 
-##Microjs
+## Microjs
 
 http://microjs.com/
 
-##Underscore.js 
+## Underscore.js 
 
 http://underscorejs.org/
 
-##Collapsible lists in JavaScript
+## Collapsible lists in JavaScript
 
 http://code.stephenmorley.org/javascript/collapsible-lists/
 
-##Datatables.js(Table, pagnation and Search Capability)
+## Datatables.js(Table, pagnation and Search Capability)
 
 https://datatables.net
 
-##Parallel.js
+## Parallel.js
 
 https://parallel.js.org
 
-##datajs - JavaScript Library for data-centric web applications
+## datajs - JavaScript Library for data-centric web applications
 
 http://datajs.codeplex.com/wikipage?title=Overview&referringTitle=Getting%20Started
 
-##SlidesJS
+## SlidesJS
 
 http://www.slidesjs.com/
 
-##ResponsiveSlides.js v1.55
+## ResponsiveSlides.js v1.55
 
 http://responsiveslides.com/
 
-##Camera
+## Camera
 
 http://www.pixedelic.com/plugins/camera/
+
+## FullCalendar
+ 
+https://fullcalendar.io/
