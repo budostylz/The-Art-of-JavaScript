@@ -1,20 +1,20 @@
-##JavaScript
+## JavaScript
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
-##Some Code Examples From 'Modern JavaScript Develop and Design'
+## Some Code Examples From 'Modern JavaScript Develop and Design'
 
 http://www.larryullman.com/books/modern-javascript-develop-and-design/
 
-##Annotated ECMAScript 5.1
+## Annotated ECMAScript 5.1
 
 http://es5.github.io/#x8.2
 
-##JSONLint
+## JSONLint
 
 http://jsonlint.com/
 
-##JavaScript Beautifier
+## JavaScript Beautifier
 
 http://jsbeautifier.org/
 
@@ -22,59 +22,59 @@ http://jsbeautifier.org/
 
 http://jscompress.com
 
-##Introducing JSON
+## Introducing JSON
 
 http://www.json.org/
 
-##JavaScript on MSDN
+## JavaScript on MSDN
 
-https://msdn.microsoft.com/en-us/library/aa902517.aspx
+ https://msdn.microsoft.com/en-us/library/aa902517.aspx
 
-##ECMAScript Compatibility Table
+## ECMAScript Compatibility Table
 
 http://kangax.github.io/compat-table/es5/
 
-##JavaScript and HTML DOM Reference
+## JavaScript and HTML DOM Reference
 
 http://www.w3schools.com/jsref/default.asp
 
-##JavaScript Style Guides And Beautifiers
+## JavaScript Style Guides And Beautifiers
 
 https://addyosmani.com/blog/javascript-style-guides-and-beautifiers/
 
-##JavaScript Style Guide and Coding Conventions
+## JavaScript Style Guide and Coding Conventions
 
 http://www.w3schools.com/js/js_conventions.asp
 
-##Truth, Equality and JavaScript
+## Truth, Equality and JavaScript
 
 https://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/
 
-##HTML DOM Events
+## HTML DOM Events
 
 http://www.w3schools.com/jsref/dom_obj_event.asp
 
-##Choose Your Radius Wisely
+## Choose Your Radius Wisely
 
 http://courses.dce.harvard.edu/~cscie3/examples/week3/circleAreaExample/circleArea.html
 
-##CSS Selector Reference
+## CSS Selector Reference
 
 http://www.w3schools.com/cssref/css_selectors.asp
 
-##cdnjs (Locate Libraries Using Search Crawl)
+## cdnjs (Locate Libraries Using Search Crawl)
 
 https://cdnjs.com/
 
-##The HTML 5 JavaScript API Index
+## The HTML 5 JavaScript API Index
 
 http://html5index.org
 
-##AngularJS. Executing long-running tasks
+## AngularJS. Executing long-running tasks
 
 http://stackoverflow.com/questions/27126955/angularjs-executing-long-running-tasks
 
-##Can I use 
+## Can I use 
 
 http://caniuse.com
 
