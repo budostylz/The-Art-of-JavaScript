@@ -1,32 +1,32 @@
-##Regular expressions in JavaScript
+## Regular expressions in JavaScript
 
 http://javascript.info/tutorial/regular-expressions-javascript
 
-##JavaScript Regular Expressions
+## JavaScript Regular Expressions
 
 http://www.w3schools.com/js/js_regexp.asp
 
-##JavaScript RegExp Reference
+## JavaScript RegExp Reference
 
 http://www.w3schools.com/jsref/jsref_obj_regexp.asp
 
-##Search algorithm
+## Search algorithm
 
 en.wikipedia.org/wiki/Search_algorithm
 
-##JavaScript String Reference
+## JavaScript String Reference
 
 http://www.w3schools.com/jsref/jsref_obj_string.asp
 
-##Form Validation
+## Form Validation
 
 http://jsfiddle.net/budostylzz/4tvf57a9/
 
-##Regular Expression Requirement
+## Regular Expression Requirement
 
 http://jsfiddle.net/budostylzz/zzqag6bo/
 
-##Test Regular Expressions Here
+## Test Regular Expressions Here
 
 https://www.debuggex.com
 
