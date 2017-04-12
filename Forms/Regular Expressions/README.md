@@ -33,3 +33,7 @@ https://www.debuggex.com
 http://www.regexpal.com
 
 http://www.regexr.com
+
+## Regular Expression to get a string between two strings in Javascript
+
+http://stackoverflow.com/questions/5642315/regular-expression-to-get-a-string-between-two-strings-in-javascript
