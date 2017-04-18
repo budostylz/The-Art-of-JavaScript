@@ -37,7 +37,6 @@ https://nodejs.org/en/
 ## Analytics for Web (analytics.js) 
 
 https://developers.google.com/analytics/devguides/collection/analyticsjs/?hl=en
-
 ## Video.js: The Player Framework
 
 http://videojs.com/
@@ -47,7 +46,7 @@ http://videojs.com/
 http://mediaelementjs.com/
 
 ## jQuery Mobile
-
+ 
 https://jquerymobile.com/
 
 ## Sencha Touch
@@ -101,3 +100,7 @@ http://www.pixedelic.com/plugins/camera/
 ## FullCalendar
  
 https://fullcalendar.io/
+
+## Moment.js 
+
+https://momentjs.com/
