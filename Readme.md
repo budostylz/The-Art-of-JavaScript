@@ -17,7 +17,6 @@ http://jsonlint.com/
 ## JavaScript Beautifier
 
 http://jsbeautifier.org/
-
 ## JavaScript Minifier
 
 http://jscompress.com
@@ -27,7 +26,7 @@ http://jscompress.com
 http://www.json.org/
 
 ## JavaScript on MSDN
-
+ 
  https://msdn.microsoft.com/en-us/library/aa902517.aspx
 
 ## ECMAScript Compatibility Table
@@ -77,5 +76,10 @@ http://stackoverflow.com/questions/27126955/angularjs-executing-long-running-tas
 ## Can I use 
 
 http://caniuse.com
+
+## Masonry
+
+http://masonry.desandro.com/
+
 
 
