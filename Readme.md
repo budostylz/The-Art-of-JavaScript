@@ -26,7 +26,7 @@ http://www.json.org/
 
 ## JavaScript on MSDN
  
-# https://msdn.microsoft.com/en-us/library/aa902517.aspx
+https://msdn.microsoft.com/en-us/library/aa902517.aspx
 
 ## ECMAScript Compatibility Table
 
