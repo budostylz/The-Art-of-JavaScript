@@ -16,8 +16,7 @@ http://jsonlint.com/
 
 ## JavaScript Beautifier
 
-http://jsbeautifier.org/
-## JavaScript Minifier
+http://jsbeautifier.org/## JavaScript Minifier
 
 http://jscompress.com
 
@@ -27,7 +26,7 @@ http://www.json.org/
 
 ## JavaScript on MSDN
  
- https://msdn.microsoft.com/en-us/library/aa902517.aspx
+# https://msdn.microsoft.com/en-us/library/aa902517.aspx
 
 ## ECMAScript Compatibility Table
 
@@ -81,5 +80,9 @@ http://caniuse.com
 
 http://masonry.desandro.com/
 
+## Group div elements by dynamic class
 
+http://stackoverflow.com/questions/19949400/group-div-elements-by-dynamic-class
+
+http://jsfiddle.net/arunpjohny/H6wHR/
 
