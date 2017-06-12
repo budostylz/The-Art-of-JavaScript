@@ -16,7 +16,9 @@ http://jsonlint.com/
 
 ## JavaScript Beautifier
 
-http://jsbeautifier.org/## JavaScript Minifier
+http://jsbeautifier.org/
+
+## JavaScript Minifier
 
 http://jscompress.com
 
