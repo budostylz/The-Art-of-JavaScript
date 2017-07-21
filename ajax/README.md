@@ -41,6 +41,8 @@ http://www.html5rocks.com/en/tutorials/cors/
 
 http://stackoverflow.com/questions/16172524/limit-on-the-length-of-the-data-that-a-webserver-can-return-in-response-to-a-get
     
+ ## HTML URL Encoding Reference
  
+ https://www.w3schools.com/tags/ref_urlencode.asp
 
 
