@@ -60,3 +60,6 @@ http://jsfiddle.net/budostylzz/kczerpud/
 
 http://eng.wealthfront.com/2012/12/04/jquerydeferred-is-most-important-client/
 
+## Smooth Scroll 
+
+http://jsfiddle.net/Behseini/8V8kF/
