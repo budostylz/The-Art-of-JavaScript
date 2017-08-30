@@ -88,3 +88,6 @@ http://stackoverflow.com/questions/19949400/group-div-elements-by-dynamic-class
 
 http://jsfiddle.net/arunpjohny/H6wHR/
 
+## Jquery to Merge HTML Table Row for same group of data using rowsapn attribute
+
+http://codedisplay.com/jquery-to-merge-html-table-row-for-same-group-of-data-using-rowsapn-attribute/
