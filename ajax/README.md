@@ -45,4 +45,6 @@ http://stackoverflow.com/questions/16172524/limit-on-the-length-of-the-data-that
  
  https://www.w3schools.com/tags/ref_urlencode.asp
 
+## How to know when all ajax calls are complete
 
+https://stackoverflow.com/questions/287188/how-to-know-when-all-ajax-calls-are-complete
