@@ -40,11 +40,11 @@ https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Getting_star
 
 https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineTo
 
-##Drawing shapes with canvas
+## Drawing shapes with canvas
 
 https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
 
-##CanvasRenderingContext2D.drawImage()
+## CanvasRenderingContext2D.drawImage()
 
 https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage
 
@@ -68,7 +68,7 @@ http://jsfiddle.net/ydhhk3q4/
 
 
 
-##CORS enabled image
+## CORS enabled image
 
 In the JSFiddle example above—because the JSFiddle comes from one domain and my image comes from another (courses.dce.harvard.edu)—it was necessary to do two things to avoid the error message:
 
