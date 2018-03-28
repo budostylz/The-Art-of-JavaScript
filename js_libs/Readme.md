@@ -115,3 +115,7 @@ http://handlebarsjs.com/
 ## Vue.js
 
 https://vuejs.org/
+
+## JavaScript Charts & Maps
+
+https://www.amcharts.com/
