@@ -91,3 +91,9 @@ http://jsfiddle.net/arunpjohny/H6wHR/
 ## Jquery to Merge HTML Table Row for same group of data using rowsapn attribute
 
 http://codedisplay.com/jquery-to-merge-html-table-row-for-same-group-of-data-using-rowsapn-attribute/
+
+## JavaScript SpellCheck
+
+https://www.javascriptspellcheck.com/
+
+
