@@ -119,3 +119,7 @@ https://vuejs.org/
 ## JavaScript Charts & Maps
 
 https://www.amcharts.com/
+
+## Karma
+
+https://karma-runner.github.io/2.0/index.html
