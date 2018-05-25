@@ -123,3 +123,7 @@ https://www.amcharts.com/
 ## Karma
 
 https://karma-runner.github.io/2.0/index.html
+
+## Fuse.js Lightweight fuzzy-search library. Zero dependencies.
+
+http://fusejs.io/
