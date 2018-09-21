@@ -135,3 +135,7 @@ https://segment.com/docs/sources/website/analytics.js/?utm_source=recordnotfound
 ## Tutorial: Intro to React
 
 https://reactjs.org/tutorial/tutorial.html
+
+## PptxGenJS
+
+https://gitbrent.github.io/PptxGenJS/
