@@ -2,6 +2,10 @@
 
 https://en.m.wikipedia.org/wiki/List_of_JavaScript_libraries
 
+## Intro.js
+
+https://introjs.com
+
 ## Backgrid.js
 
 http://backgridjs.com/#basic-example
