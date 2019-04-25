@@ -96,8 +96,14 @@ http://codedisplay.com/jquery-to-merge-html-table-row-for-same-group-of-data-usi
 
 https://www.javascriptspellcheck.com/
 
+## VOCA.js
+
+https://vocajs.com/
+
 ## Removing duplicates from an array with vanilla JavaScript
 
 https://gomakethings.com/removing-duplicates-from-an-array-with-vanilla-javascript/
 
+## Defiant.js
 
+https://defiantjs.com/
