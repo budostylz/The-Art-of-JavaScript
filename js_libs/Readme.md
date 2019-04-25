@@ -136,9 +136,6 @@ http://fusejs.io/
 
 https://segment.com/docs/sources/website/analytics.js/?utm_source=recordnotfound.com
 
-## Tutorial: Intro to React
-
-https://reactjs.org/tutorial/tutorial.html
 
 ## PptxGenJS
 
