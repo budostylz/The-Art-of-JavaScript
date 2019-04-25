@@ -143,3 +143,7 @@ https://reactjs.org/tutorial/tutorial.html
 ## PptxGenJS
 
 https://gitbrent.github.io/PptxGenJS/
+
+## Defiant.js
+
+https://defiantjs.com/
