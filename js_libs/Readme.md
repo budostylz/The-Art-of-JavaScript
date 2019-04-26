@@ -158,4 +158,8 @@ https://mozilla.github.io/pdf.js/
 
 https://gulpjs.com/docs/en/getting-started/quick-start
 
+## parrallax.js
+
+http://matthew.wagerfield.com/parallax/
+
 
