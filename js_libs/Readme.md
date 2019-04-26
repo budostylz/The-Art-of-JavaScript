@@ -150,10 +150,6 @@ https://vocajs.com/
 
 https://defiantjs.com/
 
-## PDF.js
-
-https://mozilla.github.io/pdf.js/
-
 ## Gulp.js
 
 https://gulpjs.com/docs/en/getting-started/quick-start
@@ -162,4 +158,11 @@ https://gulpjs.com/docs/en/getting-started/quick-start
 
 http://matthew.wagerfield.com/parallax/
 
+## jsPDF
+
+https://parall.ax/products/jspdf
+
+## PDF.js
+
+https://mozilla.github.io/pdf.js/
 
