@@ -350,3 +350,108 @@ With this function setup, if you want to use the default number of scoops but ch
 Since arrays are positionally based, we have to pass undefined to "skip" over the first argument (and accept the default) to get to the second argument.
 
 Unless you've got a strong reason to use array defaults with array destructuring, we recommend going with object defaults with object destructuring!
+
+# Class Preview
+Here's a quick peek of what a JavaScript class look like:
+
+        class Dessert {
+            constructor(calories = 250) {
+                this.calories = calories;
+            }
+            }
+
+            class IceCream extends Dessert {
+            constructor(flavor, calories, toppings = []) {
+                super(calories);
+                this.flavor = flavor;
+                this.toppings = toppings;
+            }
+            addTopping(topping) {
+                this.toppings.push(topping);
+            }
+        }
+
+Notice the new class keyword right in front of Dessert and IceCream, or the new extends keyword in class IceCream extends Dessert? What about the call to super() inside the IceCream's constructor() method.
+
+There are a bunch of new keywords and syntax to play with when creating JavaScript classes. But, before we jump into the specifics of how to write JavaScript classes, we want to point out a rather confusing part about JavaScript compared with class-based languages.
+
+# JavaScript's Illusion of Classes
+https://youtu.be/ISfkX503dlQ
+
+# JavaScript Classes
+
+## ES5 "Class" Recap
+Since ES6 classes are just a mirage and hide the fact that prototypal inheritance is actually going on under the hood, let's quickly look at how to create a "class" with ES5 code:
+
+        function Plane(numEngines) {
+        this.numEngines = numEngines;
+        this.enginesActive = false;
+        }
+
+        // methods "inherited" by all instances
+        Plane.prototype.startEngines = function () {
+        console.log('starting engines...');
+        this.enginesActive = true;
+        };
+
+        var richardsPlane = new Plane(1);
+        richardsPlane.startEngines();
+
+        var jamesPlane = new Plane(4);
+        jamesPlane.startEngines();
+
+In the code above, the Plane function is a constructor function that will create new Plane objects. The data for a specific Plane object is passed to the Plane function and is set on the object. Methods that are "inherited" by each Plane object are placed on the Plane.prototype object. Then richardsPlane is created with one engine while jamesPlane is created with 4 engines. Both objects, however, use the same startEngines method to activate their respective engines.
+
+Things to note:
+
+        the constructor function is called with the new keyword
+        the constructor function, by convention, starts with a capital letter
+        the constructor function controls the setting of data on the objects that will be created
+        "inherited" methods are placed on the constructor function's prototype object
+
+Keep these in mind as we look at how ES6 classes work because, remember, ES6 classes set up all of this for you under the hood.
+
+## ES6 Classes
+Here's what that same Plane class would look like if it were written using the new class syntax:
+
+        class Plane {
+            constructor(numEngines) {
+                this.numEngines = numEngines;
+                this.enginesActive = false;
+            }
+
+            startEngines() {
+                console.log('starting engines…');
+                this.enginesActive = true;
+            }
+        }
+
+# Convert a Function to a Class
+https://youtu.be/JvpG_hX0-_0
+
+# Working with JavaScript Classes
+
+## Class is just a function
+Just to prove that there isn't anything special about class, check out this code:
+
+        class Plane {
+        constructor(numEngines) {
+            this.numEngines = numEngines;
+            this.enginesActive = false;
+        }
+
+        startEngines() {
+            console.log('starting engines…');
+            this.enginesActive = true;
+        }
+        }
+
+        typeof Plane; // function
+
+        Returns: function
+
+That's right—it's just a function! There isn't even a new type added to JavaScript.
+
+⚠️ Where Are All The Commas? ⚠️
+
+
