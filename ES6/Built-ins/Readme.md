@@ -499,7 +499,7 @@ A JavaScript Promise is created with the new Promise constructor function - new 
 
 This code creates a promise that will start in a few seconds after I make the request. Then there are a number of steps that need to be made in the createSundae function.
 
-# ndicated a Successful Request or a Failed Request
+# Indicated a Successful Request or a Failed Request
 But once that's all done, how does JavaScript notify us that it's finished and ready for us to pick back up? It does that by passing two functions into our initial function. Typically we call these resolve and reject.
 
 The function gets passed to the function we provide the Promise constructor - typically the word "resolve" is used to indicate that this function should be called when the request completes successfully. Notice the resolve on the first line:
