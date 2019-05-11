@@ -63,42 +63,48 @@ http://courses.dce.harvard.edu/~cscie3/examples/week3/circleAreaExample/circleAr
 http://www.w3schools.com/cssref/css_selectors.asp
 
 ## cdnjs (Locate Libraries Using Search Crawl)
-
 https://cdnjs.com/
 
 ## The HTML 5 JavaScript API Index
-
 http://html5index.org
 
 ## AngularJS. Executing long-running tasks
-
 http://stackoverflow.com/questions/27126955/angularjs-executing-long-running-tasks
 
 ## Can I use 
-
 http://caniuse.com
 
 ## Masonry
-
 http://masonry.desandro.com/
 
 ## Group div elements by dynamic class
-
 http://stackoverflow.com/questions/19949400/group-div-elements-by-dynamic-class
 
 http://jsfiddle.net/arunpjohny/H6wHR/
 
 ## Jquery to Merge HTML Table Row for same group of data using rowsapn attribute
-
 http://codedisplay.com/jquery-to-merge-html-table-row-for-same-group-of-data-using-rowsapn-attribute/
 
 ## JavaScript SpellCheck
-
 https://www.javascriptspellcheck.com/
 
-
 ## Removing duplicates from an array with vanilla JavaScript
-
 https://gomakethings.com/removing-duplicates-from-an-array-with-vanilla-javascript/
+
+## QUnit: A JavaScript Unit Testing framework
+http://qunitjs.com
+
+## HTML5 Cross Browser Polyfills
+https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills
+
+## Babel Transpiller
+https://babeljs.io/repl
+
+## Transpiller Walkthrough
+https://youtu.be/QGE5Emfg1hI
+
+## Coin Probability
+https://jsfiddle.net/budostylzz/zmdeeq2x/
+
 
 
