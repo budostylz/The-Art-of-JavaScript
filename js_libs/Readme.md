@@ -166,3 +166,5 @@ https://parall.ax/products/jspdf
 
 https://mozilla.github.io/pdf.js/
 
+## Lodash
+https://lodash.com/
