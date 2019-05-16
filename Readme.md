@@ -106,5 +106,8 @@ https://youtu.be/QGE5Emfg1hI
 ## Coin Probability
 https://jsfiddle.net/budostylzz/zmdeeq2x/
 
+## Understanding Design Patterns in JavaScript
+https://blog.bitsrc.io/understanding-design-patterns-in-javascript-13345223f2dd
+
 
 
