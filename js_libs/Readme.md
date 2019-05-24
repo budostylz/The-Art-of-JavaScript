@@ -158,6 +158,10 @@ https://gulpjs.com/docs/en/getting-started/quick-start
 
 http://matthew.wagerfield.com/parallax/
 
+## PDFKit
+http://pdfkit.org/
+
+
 ## jsPDF
 
 https://parall.ax/products/jspdf
