@@ -161,6 +161,9 @@ https://gulpjs.com/docs/en/getting-started/quick-start
 
 http://matthew.wagerfield.com/parallax/
 
+## pdfmake
+http://pdfmake.org/#/
+
 ## PDFKit
 http://pdfkit.org/
 
