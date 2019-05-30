@@ -178,3 +178,6 @@ https://mozilla.github.io/pdf.js/
 
 ## Lodash
 https://lodash.com/
+
+## The ultimate JavaScript string library
+https://vocajs.com/
