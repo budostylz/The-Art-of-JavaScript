@@ -112,5 +112,7 @@ https://blog.bitsrc.io/understanding-design-patterns-in-javascript-13345223f2dd
 ## 4 Types of Memory Leaks in JavaScript and How to Get Rid Of Them
 https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/
 
+## .map, .reduce & .filter, Oh My!
+https://www.datchley.name/working-with-collections/
 
 
