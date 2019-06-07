@@ -115,4 +115,7 @@ https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-ge
 ## .map, .reduce & .filter, Oh My!
 https://www.datchley.name/working-with-collections/
 
+## Speed Up Your Javascript Load Time
+https://betterexplained.com/articles/speed-up-your-javascript-load-time/
+
 
