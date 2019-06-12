@@ -118,4 +118,7 @@ https://www.datchley.name/working-with-collections/
 ## Speed Up Your Javascript Load Time
 https://betterexplained.com/articles/speed-up-your-javascript-load-time/
 
+## Dynamically load JS inside JS [duplicate]
+https://stackoverflow.com/questions/14521108/dynamically-load-js-inside-js
+
 
