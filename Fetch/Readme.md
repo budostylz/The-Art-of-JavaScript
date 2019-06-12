@@ -202,3 +202,7 @@ This code adds the requestError function and adds a .catch() request to the end 
 
 ## Fetch Outro
 https://youtu.be/Z8YyDT4YSsE
+
+## Handle Multiple Requests Using Fetch
+https://teamtreehouse.com/library/manage-multiple-requests-with-promiseall
+
