@@ -121,4 +121,11 @@ https://betterexplained.com/articles/speed-up-your-javascript-load-time/
 ## Dynamically load JS inside JS [duplicate]
 https://stackoverflow.com/questions/14521108/dynamically-load-js-inside-js
 
+## JavaScript Design Patterns
+https://www.udacity.com/course/javascript-design-patterns--ud989
+
+## JavaScript Testing
+https://www.udacity.com/course/javascript-testing--ud549
+
+
 
