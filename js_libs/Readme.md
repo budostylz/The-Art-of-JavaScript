@@ -181,3 +181,9 @@ https://lodash.com/
 
 ## The ultimate JavaScript string library
 https://vocajs.com/
+
+## SharepointPlus 5.2
+https://aymkdn.github.io/SharepointPlus/
+
+## SpRestLib
+https://gitbrent.github.io/SpRestLib/
