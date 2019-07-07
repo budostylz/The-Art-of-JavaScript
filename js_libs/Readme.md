@@ -187,3 +187,6 @@ https://aymkdn.github.io/SharepointPlus/
 
 ## SpRestLib
 https://gitbrent.github.io/SpRestLib/
+
+## Immutable.js
+https://immutable-js.github.io/immutable-js/
