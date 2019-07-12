@@ -1,3 +1,7 @@
+## JavaScript Design Patterns
+
+https://addyosmani.com/resources/essentialjsdesignpatterns/book/
+
 ## JavaScript
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript
