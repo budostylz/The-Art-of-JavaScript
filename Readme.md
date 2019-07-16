@@ -131,5 +131,8 @@ https://www.udacity.com/course/javascript-design-patterns--ud989
 ## JavaScript Testing
 https://www.udacity.com/course/javascript-testing--ud549
 
+## Cross-Fetch
+https://github.com/lquixada/cross-fetch
+
 
 
