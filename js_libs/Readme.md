@@ -190,3 +190,6 @@ https://gitbrent.github.io/SpRestLib/
 
 ## Immutable.js
 https://immutable-js.github.io/immutable-js/
+
+## Sentry | Error Tracking Software
+https://sentry.io/welcome/
