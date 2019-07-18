@@ -193,3 +193,6 @@ https://immutable-js.github.io/immutable-js/
 
 ## Sentry | Error Tracking Software
 https://sentry.io/welcome/
+
+## FLOW IS A STATIC TYPE CHECKER FOR JAVASCRIPT.
+https://flow.org/en/
