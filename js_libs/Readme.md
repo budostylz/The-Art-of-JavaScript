@@ -196,3 +196,6 @@ https://sentry.io/welcome/
 
 ## FLOW IS A STATIC TYPE CHECKER FOR JAVASCRIPT.
 https://flow.org/en/
+
+## PivotTable.js
+https://pivottable.js.org/examples/
