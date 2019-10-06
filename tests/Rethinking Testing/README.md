@@ -82,4 +82,7 @@ expect(add(0.1, 0.2)).toBe(0.3)
 ## Solution
 https://youtu.be/A5SQ6WjnLAQ
 
+## Lesson Conclusion
+https://youtu.be/iiXllTFTOYY
+
 
