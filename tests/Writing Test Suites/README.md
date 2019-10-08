@@ -60,7 +60,40 @@ https://youtu.be/QCJG3FaRyyg
 ## Getting Started with Red-Green-Refactor
 https://youtu.be/cMXhrLBLpxs
 
+## Writing AddressBookSpec.js
+https://youtu.be/gies2zF5tx8
 
+## Writing our Implementation
+https://youtu.be/nVcmUt8dJF0
+
+## Solution
+https://youtu.be/xeiIFrNFW2w
+
+## Iterating on our Implementation
+https://youtu.be/S4DXlkW-Kjo
+
+## Complete our Implementation
+https://youtu.be/sV7hB-McD_c
+
+## Mike's Solution
+https://youtu.be/-0tlK2iMnOk
+
+## Another Spec
+https://youtu.be/zvEBi17rnjQ
+
+## Removing Redundant Code
+https://youtu.be/FMmktxMEV9g
+
+## Testing Asynchronous Code
+https://youtu.be/C5NGKzxe5vs
+
+## Writing an Asynchronous Test
+https://youtu.be/_zrBdWnX7HI
+
+## Running our First Async Test
+https://youtu.be/hCREz-OUQlM
+
+https://youtu.be/nlLhnTEdL3s
 
 
 
