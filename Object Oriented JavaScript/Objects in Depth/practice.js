@@ -1,4 +1,4 @@
-//intro
+/*intro*/
 
 const mileTimes = [7.50, 6.25, 10.60, 8.88];
 
@@ -28,7 +28,7 @@ const greetings = {
 
 //console.log(greetings.hello.portuguese)
 
-//create and modify properties
+/*create and modify properties*/
 
 /*let house = {
     color: 'green',
@@ -49,9 +49,22 @@ let house = {
     forSale: false
   };
 
-console.log(house)
+//console.log(house)
 house.hasGarage = true
-console.log(house)
+//console.log(house)
+
+/*invoking object methods*/ 
+
+const developer = {
+    name: 'Andrew',
+    sayHello: function () {
+      console.log('Hi there!');
+    }
+  };
+
+  developer.sayHello();
+
+  developer['sayHello']();
 
 
 
