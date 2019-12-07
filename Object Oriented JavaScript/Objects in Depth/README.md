@@ -58,7 +58,7 @@
 
 <a href='https://www.goodreads.com/book/show/2998152-javascript' target='_blank'>JavaScript: The Good Parts by Douglas Crockford</a>
 
-<a href='https://en.wikipedia.org/wiki/Douglas_Crockford' target='_blank'>JavaScript: The Good Parts by Douglas Crockford</a>
+<a href='https://en.wikipedia.org/wiki/Douglas_Crockford' target='_blank'>Douglas Crockford Bio</a>
 
 
 
