@@ -1,3 +1,5 @@
+//intro
+
 const mileTimes = [7.50, 6.25, 10.60, 8.88];
 
 console.log(mileTimes[mileTimes.length - 1])
@@ -25,3 +27,6 @@ const greetings = {
   };
 
 console.log(greetings.hello.portuguese)
+
+//create and modify properties
+
