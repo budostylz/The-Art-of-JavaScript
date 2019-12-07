@@ -104,6 +104,19 @@ const developer = {
       }
   }
 
-  console.log(chameleon.changeColor())
+  //console.log(chameleon.changeColor())
 
+  /* Beware of Globals */ 
+  function whoThis () {
+    debugger
+    this.trickyish = true
+  }
+  
+  //whoThis()
+
+  let currentlyEating = 'ice cream';
+
+window.currentlyEating === currentlyEating 
+//debugger
+//console.log(window.currentlyEating)
 

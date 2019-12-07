@@ -24,8 +24,32 @@
 
 <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Defining_methods' target='_blank'>Defining Methods on MDN</a>
 
-
 <a href='https://javascript.info/object-methods#this-in-methods' target='_blank'>this” in methods</a>
+
+## Beware of Globals
+
+<a href='https://youtu.be/fTVmpcG_9ss' target='_blank'>this and Invocation</a>
+
+<a href='https://github.com/udacity/OOJS-screencasts/blob/master/L1-objects-in-depth/57-this-without-object.js' target='_blank'>Here's the code from the preceding video.</a>
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/API/Window' target='_blank'>The window object on MDN</a>
+
+<a href='https://html.spec.whatwg.org/multipage/window-object.html#the-window-object' target='_blank'>The window specification on W3C</a>
+
+<a href='http://wiki.c2.com/?GlobalVariablesAreBad' target='_blank'>Global Variables Are Bad</a>
+
+<a href='https://en.wikipedia.org/wiki/Coupling_(computer_programming)' target='_blank'>Coupling (computer programming)</a>
+
+<a href='https://en.wikipedia.org/wiki/Name_collision' target='_blank'>Name collision</a>
+
+
+
+
+
+
+
+
+
 
 
 
