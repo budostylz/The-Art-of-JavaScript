@@ -54,6 +54,14 @@
 
 <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values' target='_blank'>Object.values() on MDN</a>
 
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values' target='_blank'>JavaScript: The Good Parts by Douglas Crockford</a>
+
+<a href='https://www.goodreads.com/book/show/2998152-javascript' target='_blank'>JavaScript: The Good Parts by Douglas Crockford</a>
+
+<a href='https://en.wikipedia.org/wiki/Douglas_Crockford' target='_blank'>JavaScript: The Good Parts by Douglas Crockford</a>
+
+
+
 ## <a href='https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Objects%20in%20Depth/practice.js' target='_blank'>Practice Code</a>
 
 
