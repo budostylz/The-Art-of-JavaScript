@@ -18,6 +18,20 @@
 
 <a href='https://github.com/udacity/OOJS-screencasts/blob/master/L1-objects-in-depth/39-calling-methods-demo.js' target='_blank'>Here's the code from the preceding video.</a>
 
+<a href='https://youtu.be/VOkwNvRW_s0' target='_blank'>A Method Can Access the Object it was Called On</a>
+
+<a href='https://github.com/udacity/OOJS-screencasts/blob/master/L1-objects-in-depth/46-this-demo.js' target='_blank'>Here's the code from the preceding video.</a>
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Defining_methods' target='_blank'>Defining Methods on MDN</a>
+
+
+<a href='https://javascript.info/object-methods#this-in-methods' target='_blank'>this” in methods</a>
+
+
+
+
+
+
 
 
 

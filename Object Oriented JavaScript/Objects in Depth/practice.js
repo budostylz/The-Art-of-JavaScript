@@ -62,10 +62,48 @@ const developer = {
     }
   };
 
-  developer.sayHello();
+  //developer.sayHello();
 
-  developer['sayHello']();
+  //developer['sayHello']();
 
+  const myArray = [ function alerter() { alert('Hello!'); } ];
 
+  //console.log( myArray[0]() )
+
+  const bell = {
+    color: 'gold',
+    ring: function () {
+      console.log('Ring ring ring!');
+    }
+  };
+
+  //console.log( bell['ring']() )
+
+  const tree = {
+    type: 'redwood',
+    leaves: 'green',
+    height: 80,
+    age: 15,
+    growOneFoot: function () {
+      this.height += 1;
+    }
+  };
+
+  //console.log(tree.growOneFoot())
+
+  const chameleon = {
+      color: 'green',
+      changeColor: function () {
+          if( this.color === 'green'){
+            this.color = 'pink';
+            console.log(this.color)
+          }else if( this.color === 'pink'){
+            this.color = 'green';
+            console.log(this.color)
+          }
+      }
+  }
+
+  console.log(chameleon.changeColor())
 
 
