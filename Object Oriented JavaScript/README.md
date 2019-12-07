@@ -1,1 +1,1 @@
-<a href='https://www.udacity.com/course/object-oriented-javascript--ud711'>Object-Oriented JavaScript</a>
+## <a href='https://www.udacity.com/course/object-oriented-javascript--ud711' target='_blank'>Udacity Object-Oriented JavaScript Course</a>
