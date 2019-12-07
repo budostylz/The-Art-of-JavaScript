@@ -42,6 +42,24 @@
 
 <a href='https://en.wikipedia.org/wiki/Name_collision' target='_blank'>Name collision</a>
 
+## Extracting Properties and Values
+
+<a href='https://youtu.be/mRgapwiy-MQ' target='_blank'>Object.keys() and Object.values()</a>
+
+<a href='https://github.com/udacity/OOJS-screencasts/blob/master/L1-objects-in-depth/70-objectkeys-and-objectvalues-demo.js' target='_blank'>Here's the code from the preceding video.</a>
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values#Browser_compatibility' target='_blank'>Object.values() Browser Compatibility table</a>
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys' target='_blank'>Object.keys() on MDN</a>
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values' target='_blank'>Object.values() on MDN</a>
+
+<a href='http://tokenposts.blogspot.com/2012/04/javascript-objectkeys-browser.html' target='_blank'>Javascript - Object.keys Browser Compatibility</a>
+
+
+
+
+
 
 
 

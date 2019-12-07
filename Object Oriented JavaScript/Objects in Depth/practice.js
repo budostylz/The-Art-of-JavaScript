@@ -120,3 +120,23 @@ window.currentlyEating === currentlyEating
 //debugger
 //console.log(window.currentlyEating)
 
+/* Extracting Properties and Values */
+const dictionary = {
+    car: 'automobile',
+    apple: 'healthy snack',
+    cat: 'cute furry animal',
+    dog: 'best friend'
+  };
+
+//console.log( Object.keys(dictionary) )
+//console.log( Object.values(dictionary) )
+
+const triangle = {
+    type: 'polygon',
+    sides: 3,
+    sumOfAngles: 180,
+    equilateral: true,
+    equiangular: true
+  };
+
+console.log( Object.keys(triangle) )
