@@ -2,7 +2,7 @@
 
 const mileTimes = [7.50, 6.25, 10.60, 8.88];
 
-console.log(mileTimes[mileTimes.length - 1])
+//console.log(mileTimes[mileTimes.length - 1])
 
 const populations = {
     china: 1379000000,
@@ -11,7 +11,7 @@ const populations = {
     unitedStates: 323100000
   };
 
-console.log(populations.brazil)
+//console.log(populations.brazil)
 
 const greetings = {
     hello: {
@@ -26,7 +26,33 @@ const greetings = {
     }
   };
 
-console.log(greetings.hello.portuguese)
+//console.log(greetings.hello.portuguese)
 
 //create and modify properties
+
+/*let house = {
+    color: 'green',
+    numRooms: 4,
+    numWindows: 8,
+    forSale: false
+  };*/
+
+//console.log(house)
+
+//delete house.numWindows
+
+//console.log(house)
+
+let house = {
+    color: 'green',
+    numRooms: 4,
+    forSale: false
+  };
+
+console.log(house)
+house.hasGarage = true
+console.log(house)
+
+
+
 
