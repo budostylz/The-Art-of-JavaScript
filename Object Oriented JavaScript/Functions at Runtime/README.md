@@ -30,6 +30,13 @@
 
 <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array' target='_blank'>Array</a>
 
+## Scope
+
+<a href='https://youtu.be/EZ3owNzefF4' target='_blank'>Scope</a>
+
+![Stack](https://github.com/budostylz/Algorithms-and-Data-Structures/blob/master/Data%20Structures/Stacks%20and%20Queues/stack_walkthrough.PNG "Stack")
+
+
 
 
 
