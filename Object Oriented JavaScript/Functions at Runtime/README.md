@@ -34,7 +34,7 @@
 
 <a href='https://youtu.be/EZ3owNzefF4' target='_blank'>Scope</a>
 
-![Stack](https://github.com/budostylz/Algorithms-and-Data-Structures/blob/master/Data%20Structures/Stacks%20and%20Queues/stack_walkthrough.PNG "Stack")
+![Scope](https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Functions%20at%20Runtime/scope.PNG "Scope")
 
 
 
