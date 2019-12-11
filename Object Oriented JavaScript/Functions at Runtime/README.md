@@ -43,6 +43,21 @@
 ![Scope](https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Functions%20at%20Runtime/scope2.PNG "Scope")
 
 
+<a href='https://developer.mozilla.org/en-US/docs/Glossary/Global_object' target='_blank'>Global Object</a>
+
+<a href='https://www.youtube.com/watch?v=Ji6NHEnNHcA&t=26m9s' target='_blank'>Douglas Crockford's discussion of block-scoped variables in The Better Parts</a>
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block#Description' target='_blank'>Douglas Crockford's discussion of block-scoped variables in The Better Parts</a>
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions' target='_blank'>Functions and Function Scope</a>
+
+
+
+
+
+
+
+
 
 
 

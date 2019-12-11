@@ -52,4 +52,12 @@ const results = musicData.filter(function (album) {
   return album.name.length >= 10 && album.name.length <= 25
 })
 
-console.log( results )
+//console.log( results )
+
+if(true){//testing block scope
+
+  console.log('setting test')
+  var test = 1;
+}
+
+console.log(test)
