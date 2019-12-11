@@ -36,6 +36,19 @@
 
 ![Scope](https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Functions%20at%20Runtime/scope.PNG "Scope")
 
+<a href='https://youtu.be/1OcdRnbiepI' target='_blank'>Scope in Action</a>
+
+<a href='https://github.com/udacity/OOJS-screencasts/blob/master/L2-functions-at-runtime/35-scope-demo.js' target='_blank'>Here's the code from the preceding video.</a>
+
+![Scope](https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Functions%20at%20Runtime/scope2.PNG "Scope")
+
+
+
+
+
+
+
+
 
 
 
