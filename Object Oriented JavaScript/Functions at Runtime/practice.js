@@ -56,8 +56,49 @@ const results = musicData.filter(function (album) {
 
 if(true){//testing block scope
 
-  console.log('setting test')
+  //console.log('setting test')
   var test = 1;
 }
 
-console.log(test)
+//console.log(test)
+
+//Closure
+function outerFunction() {
+  let num1 = 5;
+
+  return function(num2) {
+    console.log(num1 + num2);
+  };
+}
+
+//debugger
+let result = outerFunction();
+
+//result(10);
+
+function expandArray(){
+
+  let myArray = [1, 1, 1];
+
+  return function (){
+    myArray.push(1);
+    return myArray;
+  }
+}
+
+//console.log( expandArray()() )
+
+// Immediately-Invoked Function Expressions (IIFE)
+
+(function sayHi(){
+  alert('Hi there!');
+}
+)();
+
+// alerts 'Hi there!'
+
+(function sayHi(){ //recommended syntax
+  alert('Hi there!');
+}());
+
+// alerts 'Hi there!'
