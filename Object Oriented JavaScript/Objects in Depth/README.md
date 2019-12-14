@@ -44,6 +44,47 @@ Four ways to set `this`
 
 ![Prototypal Inheritance](https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Objects%20in%20Depth/prototype.PNG "Prototypal Inheritance")
 
+## Finding Properties and Methods on the Prototype Chain
+
+1. First, the JavaScript engine will look at the object's own properties. This means that any properties and methods defined directly in the object itself will take precedence over any properties and methods elsewhere if their names are the same (similar to variable shadowing in the scope chain).
+
+2. If it doesn't find the property in question, it will then search the object's constructor's prototype for a match.
+
+3. If the property doesn't exist in the prototype, the JavaScript engine will continue looking up the chain.
+
+4. At the very end of the chain is the Object() object, or the top-level parent. If the property still cannot be found, the property is undefined.
+
+<a href='http://www.objectplayground.com/' target='_blank'>Object Playground</a>
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty' target='_blank'>Object.prototype.hasOwnProperty()</a>
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isPrototypeOf' target='_blank'>Object.prototype.isPrototypeOf()</a>
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf' target='_blank'>Object.getPrototypeOf()</a>
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor' target='_blank'>Object.prototype.constructor</a>
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain' target='_blank'>Inheritance and the prototype chain</a>
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create' target='_blank'>Object.create()</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

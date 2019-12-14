@@ -1,5 +1,10 @@
-/* constructor functions 
-   Setting Our Own `this` */
+/* 
+  Constructor Functions 
+  Setting Our Own `this` 
+  Prototypal Inheritance
+  Prototypal Inheritance: Subclasses
+
+*/
 
 
 function SoftwareDeveloper(name){
@@ -81,6 +86,130 @@ const car = {
   name: 'Fusion'
 };
 
+function Dog(age, weight, name){
+  this.age = age;
+  this.weight = weight;
+  this.name = name;
+}
+
+Dog.prototype.bark = function (){//Prototypal Inheritance
+  console.log(`${this.name} says woof!`);
+}
+
+dog1 = new Dog(2, 60, 'Java');
+dog2 = new Dog(4, 55, 'Jodi');
+//dog1.bark();
+//dog2.bark();
+//console.log(dog1, dog2)
+
+const myArray = [1, 2, 3];
+myArray.join('');
+//console.dir(myArray);
+
+function Phone(){
+  this.operatingSystem = 'Android';
+}
+
+Phone.prototype.screenSize = 6;
+
+const myPhone = new Phone();
+const own = myPhone.hasOwnProperty('operatingSystem');//returns true
+const inherited = myPhone.hasOwnProperty('screenSize');//returns false
+//console.log(own, inherited);
+
+const rodent = {
+  favoriteFood: 'cheese',
+  hasTail: true
+};
+
+function Mouse() {
+  this.favoriteFood = 'cheese';
+}
+
+Mouse.prototype = rodent;
+
+const ralph = new Mouse();
+const result = rodent.isPrototypeOf(ralph);//returns true
+//console.log(result);
+
+const myPrototype = Object.getPrototypeOf(ralph);//return prototype of ralph
+//console.log(myPrototype);
+
+function Longboard() {
+  this.material = 'bamboo';
+}
+
+const board = new Longboard();//returns constructor
+//console.log( board.constructor );
+//console.log( rodent.constructor );
+
+const bear = {
+    claws: true,
+    diet: 'carnivore'
+};
+
+function PolarBear(){
+
+}
+
+PolarBear.prototype = bear;
+
+const snowball = new PolarBear();
+
+snowball.color = 'white';
+snowball.favoriteDrink = 'cola';
+
+const mammal = {
+  vertebrate: true,
+  earBones: 3
+};
+
+const rabbit = Object.create(mammal);
+
+function Animal (name) {// Animal Parent class
+  this.name = name;
+}
+
+Animal.prototype.walk = function () {//set Animal walk function prototype
+  console.log(`${this.name} walks!`);
+}
+
+function Cat (name) {//child class of Animal
+  Animal.call(this, name);//instead of recreating a new name property for cat, use parent's class name property instead
+  this.lives = 9;
+}
+
+Cat.prototype = Object.create(Animal.prototype);//create copy of Animal's prototype and set it to Cat prototype
+
+Cat.prototype.constructor = Cat;//set Cat prototype, this way we have access to parent Animal's name property
+
+Cat.prototype.meow = function () {//set Cat meow function
+  console.log('Meow!');
+}
+
+const bambi = new Cat('Bambi');//create new instance of a cat name bambi
+
+bambi.meow();
+bambi.walk();
+console.log( bambi.name );
+
+
+
+
+/*
+console.log(rabbit);
+console.log( rabbit.__proto__ === mammal);
+console.log(Object.getPrototypeOf(rabbit) === mammal);//recommended
+console.log( rabbit.vertebrate );
+console.log( rabbit.earBones);*/
+
+/*
+console.log(snowball);
+console.log(snowball.claws, snowball.diet);
+console.log(snowball.__proto__);
+console.log(snowball.__proto__ === bear);
+console.log(Object.getPrototypeOf(snowball))//recommended
+*/
 
 //bind()
 //console.log( driver.displayName.bind(car) )
