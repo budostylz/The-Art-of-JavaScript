@@ -1,4 +1,6 @@
-/* constructor functions*/
+/* constructor functions 
+   Setting Our Own `this` */
+
 
 function SoftwareDeveloper(name){
   this.favoriteLanguage = 'JavaScript';
@@ -150,5 +152,4 @@ taylor.introduce();
 riley.introduce();
 */
 
-/* Setting Our Own `this` */
 

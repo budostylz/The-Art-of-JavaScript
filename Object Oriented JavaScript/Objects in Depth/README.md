@@ -40,6 +40,12 @@ Four ways to set `this`
 
 <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind' target='_blank'>Function.prototype.bind()</a>
 
+## Prototypal Inheritance
+
+![Prototypal Inheritance](https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Objects%20in%20Depth/prototype.PNG "Prototypal Inheritance")
+
+
+
 
 
 
