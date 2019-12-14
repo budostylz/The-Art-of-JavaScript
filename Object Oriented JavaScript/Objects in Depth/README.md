@@ -30,7 +30,10 @@ Four ways to set `this`
 
 ![Calling This](https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Objects%20in%20Depth/callingThis.PNG "Calling This")
 
-<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this' target='_blank'>instanceof</a>
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this' target='_blank'>this</a>
+
+## Setting Our Own `this`
+
 
 
 
