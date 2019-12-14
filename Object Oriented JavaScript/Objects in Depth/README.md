@@ -28,7 +28,11 @@ Four ways to set `this`
 
 4. The fourth way to call functions allows us to set this ourselves! Don't worry about this approach for now; we'll take a deep dive in the very next section.
 
-![Scope](https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Functions%20at%20Runtime/scope.PNG "Scope")
+![Calling This](https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Objects%20in%20Depth/callingThis.PNG "Calling This")
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this' target='_blank'>instanceof</a>
+
+
 
 
 
