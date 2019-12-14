@@ -34,6 +34,15 @@ Four ways to set `this`
 
 ## Setting Our Own `this`
 
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call' target='_blank'>Function.prototype.call()</a>
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply' target='_blank'>Function.prototype.apply()</a>
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind' target='_blank'>Function.prototype.bind()</a>
+
+
+
+
 
 
 
