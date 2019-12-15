@@ -1,4 +1,4 @@
-## First-Class Functions
+## Object-Oriented Design Patterns
 
 <a href='https://youtu.be/8VjddoyyG1Q' target='_blank'>First Class Functions</a>
 
@@ -90,65 +90,13 @@ Here's the code from the preceding video.
 
 <a href='http://benalman.com/news/2010/11/immediately-invoked-function-expression/' target='_blank'>An Introduction to IIFEs - Immediately Invoked Function Expressions</a>
 
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign' target='_blank'>Object.assign()</a>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## <a href='https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Functions%20at%20Runtime/practice.js' target='_blank'>Practice Code</a>
+## <a href='https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Object-Oriented%20Design%20Patterns/practice.js' target='_blank'>Practice Code</a>
 
 
 

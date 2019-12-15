@@ -73,43 +73,6 @@ Four ways to set `this`
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## <a href='https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Classes%20and%20Objects/practice.js' target='_blank'>Practice Code</a>
 
 

@@ -1,104 +1,68 @@
-/* First-Class Functions */
+/* Mixins / Multiple Inheritance */
 
-//higher-order function
-function alertThenReturn() {
-  alert('Message 1!');
+/*let target = {};
+let source = { number: 7};
+Object.assign(target, source);
+console.log(target);*/
 
-  return function () {
-    alert('Message 2!');
+let target = { letter: 'a', number: 11 };
+let source = { number: 7};
+Object.assign(target, source);
+//console.log(target);
+
+const duck = {
+  hasBill: true
+  //feet: 'orange'
+};
+
+const beaver = {
+  hasTail : true
+};
+
+const otter = {
+  hasFur: true,
+  feet: 'webbed'//this property will take precedence over duck feet base on order 
+};
+
+/*const platypus = Object.assign({}, duck, beaver, otter);
+
+console.log(platypus);
+
+console.log( platypus.constructor );
+console.log( platypus.isPrototypeOf(duck) );
+console.log( duck.isPrototypeOf(platypus) );
+console.log( platypus.isPrototypeOf(beaver) );
+console.log( beaver.isPrototypeOf(duck) );
+console.log( platypus.isPrototypeOf(otter) );
+console.log( otter.isPrototypeOf(platypus) );*/
+
+const platypus = Object.assign(duck, beaver, otter);
+console.log('platypus',platypus);
+console.log('duck',duck);
+console.log(platypus === duck);
+
+/* Functional Mixins */
+
+//Factory Function
+
+function Basketball(color){
+  return {
+    color: color,
+    numDots: 35000
   };
 }
 
-function higherOrderFunction(){
-  return function (){
-    return 8;
-  }
-}
+const orangeBasketball = Basketball('orange');
+const myBB = Basketball('blue and green');
+const yourBB = Basketball('purple');
+const bouncy = Basketball('neon pink');
 
-//console.log( higherOrderFunction()() )
-
-//const innerFunction = alertThenReturn();
-
-//alertThenReturn()
-//alertThenReturn()()
-//innerFunction()
+console.log(orangeBasketball);
+console.log(myBB);
+console.log(yourBB);
+console.log(bouncy);
 
 
-const musicData = [
-  { artist: 'Adele', name: '25', sales: 1731000 },
-  { artist: 'Drake', name: 'Views', sales: 1608000 },
-  { artist: 'Beyonce', name: 'Lemonade', sales: 1554000 },
-  { artist: 'Chris Stapleton', name: 'Traveller', sales: 1085000 },
-  { artist: 'Pentatonix', name: 'A Pentatonix Christmas', sales: 904000 },
-  { artist: 'Original Broadway Cast Recording', 
-    name: 'Hamilton: An American Musical', sales: 820000 },
-  { artist: 'Twenty One Pilots', name: 'Blurryface', sales: 738000 },
-  { artist: 'Prince', name: 'The Very Best of Prince', sales: 668000 },
-  { artist: 'Rihanna', name: 'Anti', sales: 603000 },
-  { artist: 'Justin Bieber', name: 'Purpose', sales: 554000 }
-];
-
-//array.map()
-const albumSalesStrings = musicData.map(function (record){
-  let message = `${record.name} by ${record.artist} sold ${record.sales} copies`;
-  return message;
-})
 
 
-//console.log(albumSalesStrings);
 
-//array.filter()
-const results = musicData.filter(function (album) {
-  return album.name.length >= 10 && album.name.length <= 25
-})
-
-//console.log( results )
-
-if(true){//testing block scope
-
-  //console.log('setting test')
-  var test = 1;
-}
-
-//console.log(test)
-
-//Closure
-function outerFunction() {
-  let num1 = 5;
-
-  return function(num2) {
-    console.log(num1 + num2);
-  };
-}
-
-//debugger
-let result = outerFunction();
-
-//result(10);
-
-function expandArray(){
-
-  let myArray = [1, 1, 1];
-
-  return function (){
-    myArray.push(1);
-    return myArray;
-  }
-}
-
-//console.log( expandArray()() )
-
-// Immediately-Invoked Function Expressions (IIFE)
-
-(function sayHi(){
-  alert('Hi there!');
-}
-)();
-
-// alerts 'Hi there!'
-
-(function sayHi(){ //recommended syntax
-  alert('Hi there!');
-}());
-
-// alerts 'Hi there!'
