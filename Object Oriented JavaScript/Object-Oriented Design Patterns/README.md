@@ -10,6 +10,9 @@ Addy Osmani's <a href='https://addyosmani.com/resources/essentialjsdesignpattern
 
 Todd Motto's <a href='https://ultimatecourses.com/blog/mastering-the-module-pattern#private-methods'>Mastering the Module Pattern</a>
 
+Addy Osmani's <a href='https://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript'>The Revealing Module Pattern</a> (JavaScript Design Patterns)
+
+Christian Heilmann's <a href='https://christianheilmann.com/2007/08/22/again-with-the-module-pattern-reveal-something-to-the-world/'>Again with the Module Pattern – reveal something to the world</a>
 
 ## <a href='https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Object-Oriented%20Design%20Patterns/practice.js' target='_blank'>Practice Code</a>
 

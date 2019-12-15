@@ -151,10 +151,47 @@ let person = (function (){
   };
 }());
 
-console.log(person.name);
+/*console.log(person.name);
 console.log(person.getName());
 person.setName('Not Veronika');
-console.log(person.getName());
+console.log(person.getName());*/
+
+//Revealing Module Pattern
+
+let myModule = (function () {
+
+  function privateMethod (message){
+    console.log(message);
+  }
+
+  function publicMethod (message){
+    privateMethod(message);
+  }
+
+  return {
+    publicMethod: publicMethod //i only want to reveal publicMethod which calls privateMethod
+  };
+
+}());
+
+console.log(myModule.publicMethod('Reveal privateMethod'));
+
+let myModule2 = (function () {
+
+  function privateMethod (message) {
+    console.log(message);
+  }
+
+  return {
+    publicMethod: function (message){
+      privateMethod(message);
+    }
+  };
+
+}());
+
+console.log(myModule2.publicMethod('Reveal privateMethod'));
+
 
 
 
