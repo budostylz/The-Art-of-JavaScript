@@ -37,13 +37,13 @@ console.log( platypus.isPrototypeOf(otter) );
 console.log( otter.isPrototypeOf(platypus) );*/
 
 const platypus = Object.assign(duck, beaver, otter);
-console.log('platypus',platypus);
+/*console.log('platypus',platypus);
 console.log('duck',duck);
-console.log(platypus === duck);
+console.log(platypus === duck);*/
 
 /* Functional Mixins */
 
-//Factory Function
+//Factory Functions
 
 function Basketball(color){
   return {
@@ -57,10 +57,85 @@ const myBB = Basketball('blue and green');
 const yourBB = Basketball('purple');
 const bouncy = Basketball('neon pink');
 
-console.log(orangeBasketball);
+/*console.log(orangeBasketball);
 console.log(myBB);
 console.log(yourBB);
-console.log(bouncy);
+console.log(bouncy);*/
+
+function Radio(mode){
+  let on = false;
+
+  return{
+    mode: mode,
+    turnOn: function (){
+      on = true;
+    },
+    isOn: function (){
+      return on;
+    }
+  };
+}
+
+let fmRadio = Radio('fm');
+
+/*console.log(fmRadio);
+console.log(fmRadio.on);
+console.log(fmRadio.isOn());
+fmRadio.turnOn();
+console.log(fmRadio.isOn());*/
+
+
+function CoffeeMaker(object){
+  let needsRefill = false;
+
+  return Object.assign({}, object, {
+    pourAll: function (){
+      needsRefill = true;
+    },
+    isEmpty: function (){
+      return needsRefill;
+    }
+
+
+  });
+}
+
+const mixedCoffeeMaker = CoffeeMaker({ style: 'percolator' });
+//console.log(mixedCoffeeMaker);
+
+function IceCreamFactory(obj){
+  let isCold = true;
+
+  return Object.assign({}, obj, {
+    melt: function (){
+      isCold = false;
+    },
+    isCold: function (){
+      return isCold;
+    }
+
+  });
+}
+
+let iceCream = IceCreamFactory({});
+console.log(iceCream);
+
+function ConeFactory(obj){
+  let isDry = true;
+
+  return Object.assign({}, obj, {
+    soggy: function (){
+      isDry = false;
+    },
+    isDry: function(){
+      return isDry;
+    }
+  });
+}
+
+let iceCreamCone = IceCreamFactory(ConeFactory({}));//apply function composition to return both IceCreamFactory and ConeFactory properties via iceCreameCone
+console.log(iceCreamCone);
+
 
 
 
