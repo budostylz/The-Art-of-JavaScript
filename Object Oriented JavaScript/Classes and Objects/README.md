@@ -28,7 +28,7 @@ Four ways to set `this`
 
 4. The fourth way to call functions allows us to set this ourselves! Don't worry about this approach for now; we'll take a deep dive in the very next section.
 
-![Calling This](https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Objects%20in%20Depth/callingThis.PNG "Calling This")
+![Calling This](https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Classes%20and%20Objects/callingThis.PNG "Calling This")
 
 <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this' target='_blank'>this</a>
 
@@ -42,7 +42,7 @@ Four ways to set `this`
 
 ## Prototypal Inheritance
 
-![Prototypal Inheritance](https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Objects%20in%20Depth/prototype.PNG "Prototypal Inheritance")
+![Prototypal Inheritance](https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Classes%20and%20Objects/prototype.PNG "Prototypal Inheritance")
 
 ## Finding Properties and Methods on the Prototype Chain
 
