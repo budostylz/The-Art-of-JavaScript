@@ -118,7 +118,7 @@ function IceCreamFactory(obj){
 }
 
 let iceCream = IceCreamFactory({});
-console.log(iceCream);
+//console.log(iceCream);
 
 function ConeFactory(obj){
   let isDry = true;
@@ -134,7 +134,28 @@ function ConeFactory(obj){
 }
 
 let iceCreamCone = IceCreamFactory(ConeFactory({}));//apply function composition to return both IceCreamFactory and ConeFactory properties via iceCreameCone
-console.log(iceCreamCone);
+//console.log(iceCreamCone);
+
+//Module Pattern
+
+let person = (function (){
+  let name = 'Veronika';//set private variables for class person here
+
+  return{
+    getName: function (){
+      return name;
+    },
+    setName: function (myName){
+      name = myName;
+    }
+  };
+}());
+
+console.log(person.name);
+console.log(person.getName());
+person.setName('Not Veronika');
+console.log(person.getName());
+
 
 
 

@@ -6,6 +6,10 @@
 
 <a href='https://medium.com/@pyrolistical/factory-functions-pattern-in-depth-356d14801c91'>Factory Function Pattern In-Depth</a> by Ronald Chen
 
+Addy Osmani's <a href='https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript'>The Module Pattern</a> (JavaScript Design Patterns)
+
+Todd Motto's <a href='https://ultimatecourses.com/blog/mastering-the-module-pattern#private-methods'>Mastering the Module Pattern</a>
+
 
 ## <a href='https://github.com/budostylz/The-Art-of-JavaScript/blob/master/Object%20Oriented%20JavaScript/Object-Oriented%20Design%20Patterns/practice.js' target='_blank'>Practice Code</a>
 
