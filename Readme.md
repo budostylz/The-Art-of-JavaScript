@@ -140,5 +140,8 @@ https://github.com/lquixada/cross-fetch
 ## Improving TypeScript error handling with exhaustive type checking
 [Improving TypeScript error handling with exhaustive type checking](https://www.typescripttutorial.net/)
 
+## TypeScript Type Casting
+[Type Casting](https://www.typescripttutorial.net/typescript-tutorial/type-casting/)
+
 
 
