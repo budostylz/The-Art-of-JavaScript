@@ -134,5 +134,11 @@ https://www.udacity.com/course/javascript-testing--ud549
 ## Cross-Fetch
 https://github.com/lquixada/cross-fetch
 
+## TypeScript Tutorial
+[TypeScript Tutorial](https://www.typescripttutorial.net/)
+
+## Improving TypeScript error handling with exhaustive type checking
+[Improving TypeScript error handling with exhaustive type checking](https://www.typescripttutorial.net/)
+
 
 
