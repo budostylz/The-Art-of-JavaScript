@@ -143,5 +143,11 @@ https://github.com/lquixada/cross-fetch
 ## TypeScript Type Casting
 [Type Casting](https://www.typescripttutorial.net/typescript-tutorial/type-casting/)
 
+## Knockout JS
+[http://learn.knockoutjs.com/#/?tutorial=intro](http://learn.knockoutjs.com/#/?tutorial=intro)
+
+## Handlebars
+[Handlebars](https://handlebarsjs.com/)
+
 
 
