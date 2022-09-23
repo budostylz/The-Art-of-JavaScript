@@ -149,5 +149,8 @@ https://github.com/lquixada/cross-fetch
 ## Handlebars
 [Handlebars](https://handlebarsjs.com/)
 
+## Remix
+[Remix](https://remix.run/docs/en/v1)
+
 
 
